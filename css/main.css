@@ -482,6 +482,11 @@ body.nuestroTrabajo #section0{
 		margin-left: 160px;
 	}
 
+	#section4 .intro h1{
+		margin-left: 30px;
+	}
+
+
 	.nuestroTrabajo #section5 .intro h1{
 		margin-left: 70px;
 	}
@@ -732,8 +737,29 @@ section h2 strong{
 	background-image: url(../img/alianza.jpg);
 }
 
-#section13 .banner.socio{
+#section14 .banner.socio{
 	background-image: url(../img/socio.jpg);
+}
+#section14 .primary{
+		position: relative;
+		z-index: 999;
+		width: 520px;
+		left: 50%;
+		margin-left: -260px;
+		position: absolute;
+		top: 100px;
+	}
+
+#section14 .primary h1{
+	margin-left: 140px;
+}
+
+.estado h2.sub{
+	margin-bottom: 20px;
+}
+
+.estado p{
+	margin: 0 0 5px;
 }
 
 .acuerdos h2{
@@ -1055,6 +1081,17 @@ color: #ec008c;
 		border-right: none;
 	}
 
+	.datoPrincipal p{
+		    font-size: 2rem;
+    text-align: center;
+    margin-top: 15px;
+	}
+
+	.datoPrincipal p strong{
+		color: #e50c7e;
+	}
+
+
 	.dato h3{
 		font-family: 'UniversLTStd-Bold';
 		font-weight: 700;
@@ -1215,6 +1252,11 @@ color: #ec008c;
 		color: #ec008c;
 	}
 
+	.container.blanco h2.sub{
+			    color: #00aeef;
+
+	}
+
 	.container.verde h2 span,
 	.container.blanco h2 span{
 		display: block;
@@ -1313,13 +1355,28 @@ color: #ec008c;
 		color: #00aeef;
 	}
 
-	.midRight p, .left, .sublevel .midLeft p.pieFoto{
+	.midRight p, .left, .sublevel .midLeft p.pieFoto, .midLeft p.pieFoto{
 		color: #4cc7f2;
 		font-size: 12px;
 	}
 
+	.midRight p.regular{
+		color: inherit;
+		font-size: inherit;
+	}
+
 	.midRight iframe:first-child{
 		margin-top: 65px;
+	}
+
+	.row.bloques{
+		border-bottom: 1px solid #efefef;
+		margin-bottom: 40px;
+		padding-bottom: 20px;
+	}
+
+	.row.bloques:last-child{
+		border-bottom: none;
 	}
 
 	.bloque .altoImagen{
@@ -1327,9 +1384,8 @@ color: #ec008c;
 		height: 90px;
 	}
 
-	.bloque{
-		min-height: 450px;
-	}
+
+	
 }
 .table th{
 	color: #ec008c;

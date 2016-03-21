@@ -202,11 +202,11 @@
 
 @font-face {
     font-family: 'icomoon';
-    src:    url('../fonts/icomoon.eot?348w7c');
-    src:    url('../fonts/icomoon.eot?348w7c#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?348w7c') format('truetype'),
-        url('../fonts/icomoon.woff?348w7c') format('woff'),
-        url('../fonts/icomoon.svg?348w7c#icomoon') format('svg');
+    src:    url('../fonts/icomoon.eot?wek389');
+    src:    url('../fonts/icomoon.eot?wek389#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?wek389') format('truetype'),
+        url('../fonts/icomoon.woff?wek389') format('woff'),
+        url('../fonts/icomoon.svg?wek389#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -226,70 +226,76 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-matrimonioInfantil:before {
+    content: "\e900";
+}
 .icon-lactancia:before {
-    content: "\e90a";
+    content: "\e908";
 }
 .icon-nutricion:before {
     content: "\e909";
 }
 .icon-pobreza:before {
-    content: "\e91b";
+    content: "\e90a";
 }
 .icon-educacion:before {
-    content: "\e91c";
+    content: "\e90b";
 }
 .icon-violencia:before {
-    content: "\e91d";
+    content: "\e90c";
 }
 .icon-salud:before {
-    content: "\e91e";
+    content: "\e90d";
 }
 .icon-registro:before {
-    content: "\e91f";
+    content: "\e90e";
 }
 .icon-primera-infancia:before {
-    content: "\e921";
+    content: "\e90f";
 }
 .icon-migracion:before {
-    content: "\e922";
+    content: "\e910";
 }
 .icon-trabajo-infantil:before {
-    content: "\e923";
+    content: "\e911";
 }
 .icon-gastos:before {
-    content: "\e903";
+    content: "\e912";
 }
 .icon-poblacion:before {
-    content: "\e904";
+    content: "\e913";
 }
 .icon-desarrollo:before {
-    content: "\e905";
+    content: "\e914";
 }
 .icon-rurales:before {
-    content: "\e906";
+    content: "\e915";
 }
 .icon-indigenas:before {
-    content: "\e907";
+    content: "\e916";
 }
 .icon-nino-adolescente:before {
-    content: "\e908";
+    content: "\e917";
 }
 .icon-zonas:before {
-    content: "\e919";
+    content: "\e918";
 }
 .icon-ninos:before {
-    content: "\e91a";
-}
-.icon-facebook:before {
-    content: "\e900";
-}
-.icon-twitter:before {
-    content: "\e901";
+    content: "\e919";
 }
 .icon-youtube:before {
-    content: "\e902";
+    content: "\e91a";
+}
+.icon-twitter:before {
+    content: "\e91b";
+}
+.icon-facebook:before {
+    content: "\e91c";
 }
 
+img.grafica{
+	margin-top: 250px;
+}
 
 /*
 body,html{
@@ -309,7 +315,7 @@ body{
 /*header*/
 
 .headertop{
-	background-color: #00afec;
+	background-color: #1594ca;
 }
 
 .navbar-header{
@@ -323,6 +329,11 @@ body{
 
 .logo{
 	float: right;
+}
+
+.logo img{
+	    height: 60px;
+    margin-top: 4px;
 }
 
 .headerbottom{
@@ -480,6 +491,10 @@ body.nuestroTrabajo #section0{
 
 	.nuestroTrabajo .intro h1{
 		margin-left: 160px;
+	}
+
+	.nuestroTrabajo .ayudaUnicef .intro h1{
+		margin-left: 100px;
 	}
 
 	#section4 .intro h1{
@@ -688,6 +703,12 @@ section h2 strong{
 
 #section10 .banner{
 	background-image: url(../img/emergencias.jpg);
+	height: 496px;
+}
+
+#section10 .banner.ayudaUnicef{
+	background-image: url(../img/unicefMexico.jpg);
+	position: relative;
 }
 
 #section10 .banner.crisis{
@@ -840,13 +861,14 @@ section h2 strong{
 	border-left-width: 10px;
 	padding-left: 10px;
 	font-family: 'UniversLTStd-LightCn';
-}
-
-
-
-.midLeft .datoC p strong{
+	font-size: 16px;
 	color: #333;
-	font-size: 20px;
+	margin-bottom: 20px;
+}
+.datoC p strong{
+	color: #ec008c;
+	font-family: 'UniversLTStd-Bold';
+	text-transform: uppercase;
 }
 
 .v1{
@@ -1351,13 +1373,20 @@ color: #ec008c;
 		padding-right: 20px;
 	}
 
-	.midLeft p strong{
+	.col-completa{
+		margin-top: 30px;
+	}
+
+	.midLeft p strong,
+	.col-completa p strong{
 		color: #00aeef;
 	}
 
+
+
 	.midRight p, .left, .sublevel .midLeft p.pieFoto, .midLeft p.pieFoto{
 		color: #4cc7f2;
-		font-size: 12px;
+		font-size: 13px;
 	}
 
 	.midRight p.regular{

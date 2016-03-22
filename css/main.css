@@ -995,8 +995,8 @@ color: #ec008c;
 }
 
 .naranja{
-	padding: 30px 30px 15px;
-	background-color: #f26722;	
+	padding: 0px 30px 15px;
+	background-color: #FFF;	
 	margin-bottom: 20px;
 	margin-top: 30px;
 }
@@ -1006,7 +1006,7 @@ color: #ec008c;
 }
 
 .naranja img{
-	height: 60px;
+	height: 130px;
 	display: block;
 	margin: 0 auto;
 }

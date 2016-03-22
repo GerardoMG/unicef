@@ -509,7 +509,7 @@ body.nuestroTrabajo #section0{
 	.nuestroTrabajo h2.sub{
 		color: #00aeef;
 		text-align: left;
-		margin-top: 65px;
+		margin-top: 35px;
 		margin-bottom: 0px;
 	}
 
@@ -606,12 +606,13 @@ section h2 strong{
 	padding-top: 30px;
 }
 
-#infografia, #infografia2{
+#infografia, #infografia2, #infografia3{
 	display: none;
 }
 
 .featherlight .featherlight-content #infografia,
-.featherlight .featherlight-content #infografia2{
+.featherlight .featherlight-content #infografia2,
+.featherlight .featherlight-content #infografia3{
 	display: block;
 }
 
@@ -1040,12 +1041,20 @@ color: #ec008c;
 	padding: 15px 20px;
 }
 
+.midRight .resaltarAzul p{
+	color: #333;
+}
+
 .resaltar{
 	background-color: #ec008c;
 	padding: 15px 20px;
 }
 
 .resaltar p, .midRight .resaltar p{
+	color: #FFF;
+}
+
+.midRight .resaltar h2{
 	color: #FFF;
 }
 
@@ -1404,7 +1413,7 @@ color: #ec008c;
 	}
 
 	.midRight iframe:first-child{
-		margin-top: 65px;
+		margin-top: 35px;
 	}
 
 	.row.bloques{

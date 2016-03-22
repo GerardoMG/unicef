@@ -606,6 +606,15 @@ section h2 strong{
 	padding-top: 30px;
 }
 
+#infografia, #infografia2{
+	display: none;
+}
+
+.featherlight .featherlight-content #infografia,
+.featherlight .featherlight-content #infografia2{
+	display: block;
+}
+
 #section3 .fp-tableCell{
 	height: 100% !important;
 	vertical-align: middle;

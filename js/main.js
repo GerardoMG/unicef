@@ -7,3 +7,9 @@ $(document).ready(function() {
 	}, 3000);
 	
 });
+
+$('a.fl').featherlight({
+    targetAttr: 'href'
+});
+
+$.featherlight({iframeMaxWidth: '80%', iframeWidth: 500, iframeHeight: 300});

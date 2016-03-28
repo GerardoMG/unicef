@@ -38,23 +38,47 @@
          <div class="container">
             <div class="navbar-header col-xs-12">
                <a class="navbar-brand" href="#" onclick="$('#home').animatescroll();"> <img class="img-responsive" src="img/informeAnual.png" alt=""> </a>
-               <a href="#" class="logo"> <img class="img-responsive" src="img/unicef70anios.png" alt=""> </a>
+               <a href="#inicio" class="logo"> <img class="img-responsive" src="img/unicef70anios.png" alt=""> </a>
             </div>
          </div>
       </div>
       <div class="headerbottom">
          <div class="container">
-            <div>
-               <ul class="nav navbar-nav">
-                  <li class="first"><a href="#">Inicio</a> </li>
-                  <li><a href="#nuestroTrabajo">Nuestro trabajo</a> </li>
-                  <li><a href="#emergencias">Emergencias</a> </li>
-                  <li><a href="#innovacion">Innovación para la niñez</a> </li>
-                  <li><a href="#acciones">Acciones</a> </li>
-                  <li><a href="#alianzas">Alianzas</a> </li>
-                  <li class="last"><a href="#publicaciones">Publicaciones</a> </li>
-               </ul>
-            </div>
+            <nav class="navbar">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div>
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="first"><a href="#inicio">Inicio</a> </li>
+                              <li class="dropdown">
+                               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nuestro trabajo <span class="caret"></span></a>
+                               <ul class="dropdown-menu">
+                                 <li><a href="#nuestroTrabajo">UNICEF en acción</a></li>
+                                 <li><a href="#mejorPresenteyFuturo">Mejor presente y futuro</a></li>
+                                 <li><a href="#unBuenComienzo">Por un buen comienzo</a></li>
+                                 <li><a href="#educacion">Educación</a></li>
+                                 <li><a href="#adolescentes">Los adolescentes cuentan</a></li>
+                               </ul>
+                             </li>
+                              <li><a href="#emergencias">Emergencias</a> </li>
+                              <li><a href="#innovacion">Innovación para la niñez</a> </li>
+                              <li><a href="#acciones">Acciones</a> </li>
+                              <li><a href="#alianza">Alianzas</a> </li>
+                              <li class="last"><a href="#publicaciones">Publicaciones</a> </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
          </div>
       </div>
    </nav>
@@ -81,7 +105,7 @@
                   <div class="introP animated fadeIn">
                      <p>Lorem ipsum dolor sit amet, simul aeterno est in. Saepe eleifend vis ut. No est amet delectus nominati, ut amet doming complectitur cum, persius consequat constituam id vis. Ex mea cetero verear quaerendum. Mea et integre vivendum, duo et dolore oporteat. Eu sea sumo complectitur.</p>
                      <p>Pro at populo verterem. Meliore perpetua delicatissimi sea ex, harum petentium gloriatur sed ut, eos an solum option. Commodo fabulas quo te, no eos epicurei constituam suscipiantur, iriure omittantur qui te. Ad sit iuvaret scribentur, vix at utamur fastidii. Officiis temporibus nec ei. In per platonem perpetua maiestatis, per porro consectetuer an, no per quis minimum posidonium.</p>
-                  </div> <a href="nuestroTrabajo.html" class="inicia animated fadeInUp">inicia el recorrido</a> </div>
+                  </div> <a href="#situacion" class="inicia animated fadeInUp">inicia el recorrido</a> </div>
                <div> </div>
             </div>
          </section>
@@ -144,7 +168,7 @@
                      <article class="animated a1">
                            <h3><span class="icon-pobreza"></span> Pobreza</h3>
                            <p><strong><span>21.4</span> millones de niñas, niños y adolescentes</strong> se encontraba en situación de pobreza; de los cuales, <strong><span>4.6</span></strong> millones estaba en pobreza extrema en 2014.<sup>1</sup></p>
-                           <p>La carencia que más afecta a la niñez era la seguridad social <strong><span>(62.6%).<span></strong>                                                                                                                 , seguida por la carencia a acceso a la alimentación <strong><span>(27.6%).<span></strong><sup>2</sup></p>
+                           <p>La carencia que más afecta a la niñez era la seguridad social <strong><span>(62.6%).</span></strong>                                                                                                                 , seguida por la carencia a acceso a la alimentación <strong><span>(27.6%).</span></strong><sup>2</sup></p>
                         </article>
                         <article class="animated a2">
                            <h3><span class="icon-salud"></span> Salud</h3>
@@ -176,7 +200,7 @@
                         </article>
                      </div>
                      <div class="col-md-6 ">
-                        <img src="img/situacion.png" class="animated img-responsive grafica" alt="">
+                        <h2 class="subInfografia">Situación de la infancia y la adolescencia en México</h2>
                      </div>
                      <div class="col-md-3 der">
                         
@@ -194,7 +218,7 @@
                         </article>
                         <article class="animated a4">
                            <h3><span class="icon-violencia"></span> Violencia</h3>
-                           <p><strong><span>36</span> de cada mil niños, niñas y adolescentes,</strong> de entre 10 y 17 años sufrieron algún tipo de agresión en 2012. <strong>Un <span>42.28%</span> de las agresiones sucedieron en la vía pública;<span> 40.48,</span> en las ecuelas, y 10.15% en el hogar.<sup>18</sup></p>
+                           <p><strong><span>36</span> de cada mil niños, niñas y adolescentes,</strong> de entre 10 y 17 años sufrieron algún tipo de agresión en 2012. <strong>Un <span>42.28%</span></strong> de las agresiones sucedieron en la vía pública;<span> 40.48,</span> en las ecuelas, y 10.15% en el hogar.<sup>18</sup></p>
                            <p>En 2012,<strong>6 de cada 10 niños y adolescentes</strong> se encontraban expuestos a algún tipo de agresión física en los espacios públicos.<sup>19</sup></p>
                            <p><strong>100% de las agresiones sexuales contra las niñas y adolescentes en 2012 ocurrieron particularmente en sus hogares, las escuelas y en la vía pública.</strong><sup>20</sup></p>
                         </article>
@@ -204,7 +228,7 @@
                            <p>Los tres estados de la República Mexicana con mayor porcentaje de matrimonio infantil en México son<strong> Chiapas <span>(44.82%)</span>, Guerrero <span>(42.41%)</span> y Oaxaca <span>(39.17%).</span></strong><sup>22</sup></p>
                         </article>
                         <article class="animated a6">
-                           <h3><span class="icon-matrimonioInfantil"></span> Embarazo adolescente</h3>
+                           <h3><span class="icon-embarazo"></span> Embarazo adolescente</h3>
                            <p><strong><span>9.55%</span> de las adolescentes entre <span>15 y 17 años</span></strong> que viven en México han estado alguna vez embarazadas.<sup>23</sup></p>
                            <p><strong>Coahuila, Hidalgo, Michoacán</strong> son los tres estados con mayor porcentaje de <strong>adolescentes embarazadas en el país.</strong><sup>24</sup></p>
                            <p><strong><span>7.52%</span></strong> de las adolescentes que han abandonado la escuela, lo han hecho porque se han embarazado.<sup>25</sup></p>
@@ -212,7 +236,7 @@
                   </div>
                   <div class="container">
                      <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-3">
                            <div class="referencias fadeInUp">
                               <br>
                               <p>[1] Coneval, con base en el MCS-ENIGH, 2014. <br>
@@ -227,7 +251,13 @@
                                     [10] Ibídem.<br>
                                     [11] Ibídem.<br>
                                     [12] Ibídem.<br>
-                                    [13] INM. Boletín mensual de estadísticas migratorias, Unidad de Política Migratoria, SEGOB, 2015.<br>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-md-offset-6">
+                           <div class="referencias fadeInUp">
+                              <br>
+                              <p>[13] INM. Boletín mensual de estadísticas migratorias, Unidad de Política Migratoria, SEGOB, 2015.<br>
                                     [14] Ibídem.<br>
                                     [15] Ibídem.<br>
                                     [16] INEGI. Módulo de Trabajo Infantil de la Encuesta Nacional de Ocupación y Empleo (ENOE), 2013.<br>
@@ -239,8 +269,7 @@
                                     [22] Ibídem.<br>
                                     [23] Ibídem.<br>
                                     [24] Ibídem.<br>
-                                    [25] Ibídem.<br>
-                              </p>
+                                    [25] Ibídem.<br></p>
                            </div>
                         </div>
                      </div>
@@ -272,7 +301,7 @@
                <p>También en 2015, el gobierno de México realizó un ejercicio de restructuración del gasto público por medio de la metodología de Presupuesto base cero, en el cual se crearon, fusionaron y eliminaron diversos programas presupuestarios. En este proceso, UNICEF colaboró con la Secretaría de Hacienda y Crédito Público para realizar un foro con más de 100 funcionarios públicos de todos los sectores de gobierno a fin de dialogar sobre las implicaciones de la Ley Genenal de los Derechos de Niñas, Niños y Adolescentes (LGDNNA) y el presupuesto.</p> 
                <p>En colaboración con el Senado de la República realizamos un Foro sobre Presupuesto Transversal con enfoque de derechos de la infancia para mejorar el gasto público dirigido a los niños en México. El objetivo de este Foro fue reunir el compromiso de los actores clave (Diputados electos al Congreso de la Unión, el Senado y funcionarios del gobierno federal) para aumentar los recursos destinados a los niños y realizar una mejor asignación de presupuesto para el ejercicio fiscal 2016.</p> 
                <p>Además continuamos nuestra asistencia en la identificación y cuantificación de la inversión pública en la infancia y el trabajo de sensibilización en materia presupuestos con enfoque de derechos de la infancia. Con los estados de Morelos, Estado de México, Hidalgo, Jalisco, Oaxaca y Yucatán trabajamos estrechamente para compartir nuestra metodología de presupuesto y así lograr que identifiquen mejor sus recursos en favor de los niños y niñas.</p>    
-               <p>Gracias a esta experiencia en temas de inversión, el gobierno de México fue uno de los tres países invitados a participar en la reunión global organizada por UNICEF y el Banco Mundial en Washington, Estados Unidos, para crear estándares sobre las metodologías de análisis y medición de presupuesto destinado a la infancia.<p>
+               <p>Gracias a esta experiencia en temas de inversión, el gobierno de México fue uno de los tres países invitados a participar en la reunión global organizada por UNICEF y el Banco Mundial en Washington, Estados Unidos, para crear estándares sobre las metodologías de análisis y medición de presupuesto destinado a la infancia.</p>
                
             </div>
             <div class="midRight animated">
@@ -288,16 +317,31 @@
                      <li><strong>El mayor porcentaje de gasto en educación</strong> se destinó al nivel primaria, seguido por superior y secundaria. Preescolar fue el nivel educativo que recibió menos recursos públicos, con tan sólo 10% del gasto. </li>
                   </ul>
                </div>
-                  <br>
+                  <p><br>
                   <br><img src="img/linea.png" alt=""> </p>
+
+               <div class="row">
+                  <div class="col-md-3">
+                     <a href="#" data-featherlight="#infografia"><img class="example-image" src="img/linkInfografia.png" height="150"> </a>
+                  </div>
+                  <div class="col-md-3" style="border-left: 1px solid #ccc;">
+                     <a href="#" data-featherlight="#infografia2"><img class="example-image" src="img/linkInfografia2.png" height="150"> </a>
+                  </div>
+                  <div class="col-md-6">
+                     <p><br>Infografía: ¿Cuál es la importancia entre los derechos de la infancia y el gasto público?</p>
+                  </div>
+               </div>
+               <p><br>
+                  <br><img src="img/linea.png" alt=""> </p>
+               
+
+
                      <p class="regular">En 2015 también trabajamos con Fundar, Centro de Análisis e Investigación, A.C. en una campaña de abogacía para incidir en el Presupuesto de Egresos de la Federación y evitar el recorte de recursos en los rubros relacionados con los derechos humanos. Además continuamos colaborando con el Instituto Mexicano de la Competitividad (IMCO) para impulsar la transparencia de información y la rendición de cuentas de los gobiernos a nivel federal y estatal en los recursos públicos para la infancia y la adolescencia.</p>
                       <p class="regular">También, durante 2015 junto con los estados de Chihuahua, Hidalgo y Jalisco, nos dimos a la tarea de realizar un análisis de la situación de la infancia con la finalidad de conocer mejor a los niños, niñas y adolescentes de esas entidades. Nuestro principal objetivo fue mostrar las inequidades que los niños viven, los servicios públicos disponibles para ellos, los riesgos de salud presentes en cada zona, así como la asignación de presupuesto y la ejecución de políticas orientadas a mejorar el bienestar y sus condiciones de vida. Estos análisis sobre la situación de la infancia nos permiten valorar la situación de la niñez en relación con sus derechos y con cada etapa de su vida; así como comprender las dinámicas de la pobreza y exclusión a las que pueden enfrentarse.</p>
                       <p>
                   <br><img src="img/linea.png" alt=""> </p>
                
-               <a href="#" data-featherlight="#infografia"><img class="example-image" src="img/linkInfografia.png" height="150"> </a>
-               <a href="#" data-featherlight="#infografia2"><img class="example-image" src="img/linkInfografia2.png" height="150"> </a>
-               <p><br>¿Cuál es la importancia entre los derechos de la infancia y el gasto público?</p>
+               
 
 <div id="infografia"><img src="img/infografia01.jpg" alt=""></div>
 <div id="infografia2"><img src="img/infografia02.jpg" alt=""></div>
@@ -355,14 +399,15 @@
                <p>A diciembre de 2015 18 estados y alrededor de 1,627 de 2,445 municipios, que concentran a un 71% de las niñas, niños y adolescentes en México se sumaron a la iniciativa 10 por la Infancia. Para febrero de 2016, los municipios integrantes de la Red Mexicana de las Ciudades Amigas de la Niñez ya habrán también firmado esta iniciativa.</p>
                <p>En 2015, <strong><em>10 por la infancia</em></strong> sirvió de apoyo para la armonización legislativa, implementación de la Ley General de los Derechos de Niñas, Niños y Adolescentes e instalación del Sistema de Protección Integral en los  18 estados adheridos a 10 por la infancia. </p>
                <p>Desde UNICEF seguiremos impulsando el compromiso político de los gobiernos estatales y municipales, con el objetivo de acompañarlos en su proceso de adhesión a 10 por la Infancia para así beneficiar a la niñez en México.
-                  <br> </p>
+                  <br><br> </p>
+
                <div class="col-md-6">
                   <a href="http://www.unicef.org/mexico/spanish/17054_28059.htm" target="_blank"><img src="img/10xinfanciaLink.png" height="190" width="150" alt=""> 
                   <p class="pieFoto"><br><i class="fa fa-external-link"></i> 10xinfancia: La agenda de la infancia y la adolescencia 2014-2018</p></a>
                </div>
                <div class="col-md-6">
-                  <a href="www.10xinfancia.mx" target="_blank"><img src="img/10xinfanciaLink2.png" class="img-responsive" height="190" width="327" alt=""> 
-                  <p class="pieFoto"><br><i class="fa fa-external-link"></i> Conoce más sobre 10 por la infancia</p></a>
+                  <a href="www.10xinfancia.mx" target="_blank"><img src="img/10xinfanciaLink2.png" class="img-responsive" height="190" width="327" alt=""></a>
+                  <p class="pieFoto"><br><i class="fa fa-external-link"></i> <a href="www.10xinfancia.mx" target="_blank">Conoce más sobre 10 por la infancia</a></p>
                </div>
             </div>
             <div class="midRight">
@@ -370,15 +415,17 @@
                <div class="subDatos">
                   <br><br>
                   <img src="img/logo_10xinfancia.jpg" class="img-responsive" alt="">
+                  <br><br>
                   <ul>
                      <li>
-                        <strong>En 2015,</strong> los estados de Guerrero, Michoacán, Morelos, Nayarit y Zacatecas se sumaron a <strong><em>10
+                        <strong>En 2015,</strong> los estados de Guerrero, Michoacán, Morelos, Nayarit y Zacatecas se sumaron a <strong class="smallCaps"><em>10
                         
                                  por la infancia</em></strong>
                      </li>
                      <li><strong>La iniciativa</strong> impulsa diez puntos estratégicos para la protección de la niñez en México que incluyen indicadores de impacto (nivel de desnutrición, tasa de mortalidad infantil, el porcentaje de asistencia escolar, entre otros)  para conocer la situación de la niñez en cada uno de los estados y apoyarlos en sus avances, especialmente en la implementación de sus leyes estatales o municipales.</li>
+                     </ul>
                </div>
-               </ul>
+               
             </div>
          </div>
          <hr>
@@ -473,30 +520,38 @@
                   <br>
                   <br><img src="img/linea.png" alt=""> </p>
                <div class="quote">
-                  <p>“Hoy es un día que podríamos calificar de histórico para la infancia de México, porque coloca a la niñez y adolescencia como un asunto prioritario en la agenda del país… esta generación será recordada como la que se movilizó, que invirtió tiempo y recursos, así como capital político para respetar los derechos de 40 millones de ciudadanos y ciudadanas”, Isabel Crowley, Representante UNICEF en México, durante la instalación del Sistema Nacional de Protección Integral de Niñas, Niños y Adolescentes. </p>
+                  <p><strong>“Hoy es un día que podríamos calificar de histórico para la infancia de México, porque coloca a la niñez y adolescencia como un asunto prioritario en la agenda del país… esta generación será recordada como la que se movilizó, que invirtió tiempo y recursos, así como capital político para respetar los derechos de 40 millones de ciudadanos y ciudadanas”</strong>, Isabel Crowley, Representante UNICEF en México, durante la instalación del Sistema Nacional de Protección Integral de Niñas, Niños y Adolescentes. </p>
                </div>
                <p><img src="img/linea.png" alt="">
-                  <br> </p>
-               <p>¿Qué es el Sistema Nacional de Protección Integral de Niñas, Niños y Adolescentes y quiénes lo integran?</p>
-               <p><a href="http://www.leyderechosinfancia.mx/wp-content/uploads/2015/03/Sistemas-de-Proteccion.pdf" target="_blank"><i class="fa fa-external-link"></i> http://www.leyderechosinfancia.mx/wp-content/uploads/2015/03/Sistemas-de-Proteccion.pdf</a> </p>
-               <p><a href="http://www.leyderechosinfancia.mx/wp-content/uploads/2015/02/Infograf%C3%ADa_LGDNNA.jpg" data-featherlight="#infografia3"><i class="fa fa-external-link"></i>  Una Ley histórica para proteger los derechos de la niñez</a> </p>
+                  <br><br> </p>
+               <p><a href="http://www.leyderechosinfancia.mx/wp-content/uploads/2015/03/Sistemas-de-Proteccion.pdf" target="_blank"><i class="fa fa-external-link"></i>¿Qué es el Sistema Nacional de Protección Integral de Niñas, Niños y Adolescentes y quiénes lo integran?</a></p>
 
-               <div id="infografia3"><img src="img/Infografía_LGDNNA.jpg" class="img-responsive" alt=""></div>
+                <p><br><img src="img/linea.png" alt="">
+                  <br><br> </p>
+               
+               <p><a href="img/Infografia_LGDNNA.jpg" data-featherlight="#infografia3"><img src="img/Infografia_LGDNNA-thumb.jpg" alt=""></a></p>
+               <p><a href="img/Infografia_LGDNNA.jpg" data-featherlight="#infografia3">  Una Ley histórica para proteger los derechos de la niñez</a> </p>
+
+               <div id="infografia3"><img src="img/Infografia_LGDNNA.jpg" class="img-responsive" alt=""></div>
             </div>
          </div>
          <div class="container">
             <hr>
             <div class="midLeft">
-                  <li>A lo largo de 2015, también se co-organizaron talleres con el Senado de la República, la Secretaría de Gobernación, la Secretaría de Desarrollo Social y la Secretaría de Hacienda y Crédito Público y la Conferencia Nacional de Gobernadores (CONAGO) para presentar las implicaciones de la Ley en gobierno federal y gobiernos estatales en sus respectivos quehaceres.</li>
-                  <li>- Basándose en la Ley General, la Comisión Nacional de Derechos Humanos estableció una unidad especializada para la atención de niños, niñas y adolescentes y ha trabajado para ayudar en el establecimiento de unidades similares en las Comisiones Estatales de Derechos Humanos.</li>
-               </ul>
+                  <div class="subDatos">
+                     <ul>
+                        <li><strong>A lo largo de 2015,</strong> también se co-organizaron talleres con el Senado de la República, la Secretaría de Gobernación, la Secretaría de Desarrollo Social y la Secretaría de Hacienda y Crédito Público y la Conferencia Nacional de Gobernadores (CONAGO) para presentar las implicaciones de la Ley en gobierno federal y gobiernos estatales en sus respectivos quehaceres.</li>
+                        <li>Basándose en la Ley General, <strong>la Comisión Nacional de Derechos Humanos</strong> estableció una unidad especializada para la atención de niños, niñas y adolescentes y ha trabajado para ayudar en el establecimiento de unidades similares en las Comisiones Estatales de Derechos Humanos.</li>
+                     </ul>
+                  </div>
+               <p><br></p>
                <iframe class="wow fadeInRight" width="500" height="320" src="https://www.youtube.com/embed/aPKat1PAcQs?rel=0" frameborder="0" allowfullscreen></iframe>
                <p class="pieFoto">5 cosas que debes saber sobre la Ley General de los Derechos de Niñas, Niños y Adolescentes </p>
                <p>
                   <br>
                   <br><img src="img/linea.png" alt=""> </p>
-               <a href="http://www.leyderechosinfancia.mx" target="_blank"><img src="img/plataforma.png" class="img-responsive" alt=""> 
-               <p class="pieFoto"><br><i class="fa fa-external-link"></i> Plataforma web Ley General de los Derechos de Niñas, Niños y Adolescentes </p></a>
+               <a href="http://www.leyderechosinfancia.mx" target="_blank"><img src="img/plataforma.png" class="img-responsive" alt=""> </a>
+               <p class="pieFoto"><br><i class="fa fa-external-link"></i> <a href="http://www.leyderechosinfancia.mx" target="_blank">Plataforma web Ley General de los Derechos de Niñas, Niños y Adolescentes </a></p>
                <p> </p>
             </div>
             <div class="midLeft">
@@ -506,7 +561,8 @@
                      Sistema Nacional de Protección Integral de Niñas, Niños y Adolescentes (SIPINNA)</h2>
                   <p>Durante el año 2015, México dio grandes pasos para avanzar en la protección de los derechos de la infancia y la adolescencia en el país, a partir de lo establecido por la Ley General de los Derechos de Niñas, Niños y Adolescentes. En diciembre de 2015, el Presidente de la República, Enrique Peña Nieto, instaló formalmente el Sistema Nacional de Protección Integral de los Derechos de Niñas, Niños y Adolescentes (SIPINNA) y nombró a Ricardo Bucio como su Secretario Ejecutivo, con la finalidad de coordinar operativamente este sistema y garantizar los derechos de 39.2 millones de niñas, niños y adolescentes en el país.</p>
                   <p>En el acto de instalación, se anunció:</p>
-                  <li>La publicación del Reglamento de la Ley General de Derechos de Niñas, Niños y Adolescentes (LGDNNA) y del Manual de Organización y Operación del Sistema Nacional de Protección.</li>
+                  <ul>
+                     <li>La publicación del Reglamento de la Ley General de Derechos de Niñas, Niños y Adolescentes (LGDNNA)  Nacional de Protección.</li>
                   <li>La obligación de elaborar el Programa Nacional de Protección Integral para la política pública sobre niñez y adolescencia, el cual deberá realizarse en un plazo de 180 días a partir de la instalación.</li>
                   <li>La obligación de diseñar el Sistema Nacional de Información sobre la situación de niñas, niños y adolescentes en México, a fin de ser presentado en diciembre de 2016.</li>
                   <li>La creación de cinco comisiones especiales:
@@ -520,6 +576,7 @@
                   </li>
                   <li>Un acuerdo con la Conferencia Nacional de Gobernadores (CONAGO) para la armonización de leyes locales en contra del matrimonio infantil.</li>
                   <li>La creación del Comité Especializado de Información sobre Protección Integral de Niños y Adolescentes del INEGI.</li>
+               </ul>
                   <p>A finales de 2015, algunos logros del Sistema Nacional de Protección Integral de Niñas, Niños y Adolescentes fueron:</p>
                   <ul>
                      <li>La aprobación de las 32 leyes locales armonizadas con la LGDNNA.</li>
@@ -556,12 +613,6 @@
                   <p>
                      <br>
                      <br> </p>
-                  <p>
-                     <a href="http://proteccionconsular.sre.gob.mx/images/Protocolonna2.pdf" target="_blank"><img width="124px" src="img/protocoloLink.png" alt=""> 
-                  <br><br><i class="fa fa-external-link"></i> Protocolo para la atención consular de niñas, niños y adolescentes migrantes no acompañados</p></a>
-                  <p>
-                     <br>
-                     <br><img src="img/linea.png" alt=""> </p>
                   <div class="col-sm-12">
                      <div class="datoC v1">
                         <p>El número de casos de niños, niñas y adolescentes extranjeros que migraban sin la compañía de un adulto y fueron detectados por autoridades migratorias mexicanas aumentó un <strong>333% de 2013 a 2015 de 5,596 a 18,650 casos.</strong></p>
@@ -574,31 +625,45 @@
                      </div>
                     
                   </div>
+                  <p>
+                     <br>
+                     <br><img src="img/linea.png" alt=""> <br></p>
+                  <p>
+                     <a href="http://proteccionconsular.sre.gob.mx/images/Protocolonna2.pdf" target="_blank"><img width="124px" src="img/protocoloLink.png" alt=""> 
+                  <br><br><i class="fa fa-external-link"></i> Protocolo para la atención consular de niñas, niños y adolescentes migrantes no acompañados</a></p>
+                  <p>
+                     
+                     <br><img src="img/linea.png" alt=""> </p>
+                  
                </div>
-               <div class="midRight">
-                  <p>Durante la XX Conferencia Regional sobre Migración, un foro regional multilateral para la promoción y debates sobre temas de migración, UNICEF obtuvo el estatus como organismo de observador, lo cual nos permitirá apoyar en la implementación de algunos proyectos que los gobiernos determinen, aportar información sobre el estado de la situación de temas de interés, brindar asesoría técnica y dar recomendaciones sobre aspectos específicos sobre migración.
-                     <p>
-                        <p>Colaboramos con la Oficina Regional para América Latina y el Caribe (LACRO) de UNICEF en la labor de sensibilización, diálogo y asistencia técnica a otros países en el Triángulo del Norte para compartir experiencias sobre los niños migrantes no acompañados, en particular sobre el <strong><em>Protocolo consular para el cuidado y la protección de los niños migrantes</em></strong>.</p>
-                        <br>
-                        <br> </div>
-            </div>
-            <div class="container">
-               <div class="midLeft">
+               <div class="midLeft resaltarAzul">
                   <h2>RAPIDFTR</h2>
                   <p>Herramienta probada por UNICEF para registrar a niños en situaciones de emergencia. Ha sido adaptada por la Secretaría de Relaciones Exteriores para identificar cuáles son las vulnerabilidades de los niños, niñas y adolescentes migrantes no acompañados. </p>
                   <p>De esta forma, los cónsules mexicanos en Estados Unidos utilizan teléfonos móviles y tablets para registrar la información proveniente de las entrevistas que realizan a niños migrantes no acompañados. Incorporan en tiempo real datos útiles en estos dispositivos que, al analizarse estadísticamente en menor tiempo, permiten abogar por sus derechos y protegerlos mejor ante riesgos como violencia, crimen organizado, explotación, trata y tráfico de personas. </p>
                   <p>El uso de RapidFTR en los consulados mexicanos en Estados Unidos se encuentra en una etapa piloto que comenzó en los consulados de Portland, Oregon; Santa Ana, California, y McAllen, Texas. </p>
+                  <p><img src="img/Rapid-FTR.jpg" class="img-responsive" alt=""> </p>
                </div>
-               <div class="midLeft"> <img src="img/Rapid-FTR.jpg" class="img-responsive" alt=""> </div>
+               <div class="midRight">
+                  <p>Durante la XX Conferencia Regional sobre Migración, un foro regional multilateral para la promoción y debates sobre temas de migración, UNICEF obtuvo el estatus como organismo de observador, lo cual nos permitirá apoyar en la implementación de algunos proyectos que los gobiernos determinen, aportar información sobre el estado de la situación de temas de interés, brindar asesoría técnica y dar recomendaciones sobre aspectos específicos sobre migración.
+                     </p>
+                        <p>Colaboramos con la Oficina Regional para América Latina y el Caribe (LACRO) de UNICEF en la labor de sensibilización, diálogo y asistencia técnica a otros países en el Triángulo del Norte para compartir experiencias sobre los niños migrantes no acompañados, en particular sobre el <strong><em>Protocolo consular para el cuidado y la protección de los niños migrantes</em></strong>.</p>
+                        <br>
+                        <br> </div>
             </div>
+            
             <hr>
             <div class="container">
+               <h2 class="sub">Impartición de justicia para adolescentes <br>en conflicto con la ley</h2>
                <div class="midLeft">
-                  <h2 class="sub">Impartición de justicia para adolescentes en conflicto con la ley</h2>
+                  
                   <p>En julio de 2015, una nueva reforma a la Constitución de México puso en la agenda nacional la obligación de emitir una nueva legislación para armonizar y unificar el sistema de justicia para adolescentes en todo el país. Desde UNICEF participamos en el análisis y revisión de las diversas propuestas que fueron presentadas en el Congreso de la Unión, buscando que éstas se ajusten a las normas y principios internacionales en materia de impartición de justicia especializada para adolescentes, así como a las disposiciones de Ley General de los Derechos de Niñas, Niños y Adolescentes.</p>
                   <p>Por otra parte, con los estados de Oaxaca y Chihuahua se implementó un modelo que promueve la aplicación de medidas no privativas de libertad para adolescentes en conflicto con la ley, con la participación de las organizaciones de la sociedad civil y otras redes de apoyo.</p>
                   <p>En coordinación con la Secretaría de Gobernación, apoyamos  la publicación de un diagnóstico de los adolescentes que cometen delitos graves en México, con el objetivo de  brindar un análisis de la situación de esta población en cuatro estados de la República, hacer visibles sus necesidades y dar recomendaciones que contribuyan a una política integral de reinserción social de esta población.</p>
                   <p>En relación al acceso a la justicia de niños, niñas y adolescentes, más de 579 operadores de justicia de todo el país (jueces, magistrados, personal en los juzgados y tribunales) concluyeron el curso “Los Derechos Humanos y el Acceso a la Justicia”. Este curso desarrollado por UNICEF, la Suprema Corte de Justicia de la Nación y la Oficina de Defensoría de los Derechos de la Infancia (ODI), busca proporcionar herramientas prácticas con orientaciones concretas en la impartición de justicia especializada en los casos que afectan la niñez comprendiendo en todo momento sus necesidades de protección y sus derechos.</p>
+               </div>
+               <div class="midLeft">
+                  <br><br>
+                  <img src="img/UNI186294.jpg" class="img-responsive" alt="">
                </div>
             </div>
          </div>
@@ -634,10 +699,26 @@
                      Materna y Neonatal</em></strong>, un foro para compartir y debatir tendencias mundiales sobre salud, su vínculo con los compromisos internacionales y acciones concretas en favor de la infancia y de sus madres. </p>
                <p>Este encuentro, organizado por la Secretaría de Salud y contrapartes estratégicas -entre ellas UNICEF- reunió por primera vez a más de 1,000 tomadores de decisión, líderes y especialistas provenientes de 75 países. </p>
                <p>Durante la Conferencia se discutieron las estrategias para que cada mujer y recién nacido tenga acceso a una atención a la salud de alta calidad y así acabar con las muertes prevenibles. Además se generaron intercambios de experiencias para entender y dar respuesta a las necesidades de salud más urgentes, concentrándose en la calidad de la atención, la integración y la equidad. En ese sentido Geeta Rao Gupta, Directora Ejecutiva Adjunta de UNICEF, señaló:</p>
-               <div class="quote">
-                  <p>“El progreso sigue favoreciendo a los más afortunados. El progreso continua dejando atrás a los que menos tienen: madres e hijos en situaciones de conflicto, a los que viven en los suburbios urbanos o comunidades rurales, las minorías étnicas, los que tienen discapacidad o los más empobrecidos y menos educados. Por eso, debemos colocar primero a aquellos que están en mayor desventaja, debemos colocar la equidad en el corazón de toda área.
+               <div class="">
+                  <p class="azul">“El progreso sigue favoreciendo a los más afortunados. El progreso continua dejando atrás a los que menos tienen: madres e hijos en situaciones de conflicto, a los que viven en los suburbios urbanos o comunidades rurales, las minorías étnicas, los que tienen discapacidad o los más empobrecidos y menos educados. Por eso, debemos colocar primero a aquellos que están en mayor desventaja, debemos colocar la equidad en el corazón de toda área.
                   Recordemos que las estrategias y planes no salvan vidas; la voluntad política, las alianzas y la gente sí. Trabajar juntos les da a las mujeres y los bebés una oportunidad justa para sobrevivir, una oportunidad de prosperar."</p>
                </div> 
+                </div>
+            <div class="midRight">
+               <iframe class="wow fadeInRight" width="568" height="320" src="https://www.youtube.com/embed/HRalsCp_U4k" frameborder="0" allowfullscreen></iframe>
+               <p>Por primera vez en México, más de mil expertos en salud materna y neonatal de 75 países nos visitaron en la Conferencia Global de Salud Materna y Neonatal, para identificar las necesidades más</p>
+               <p><a href="#definicion1" class="fl"><i class="fa fa-external-link"></i> ¿Qué es un Activate Talks?</a></p>
+<div id="definicion1"><p>Un Activate Talks es un espacio para que expertos, líderes e innovadores compartan sus pensamientos, iniciativas, proyectos o ideas para proponer soluciones a los principales problemas que enfrentan las niñas, niños y adolescentes en el mundo.</p></div>
+
+               <p><a href="#definicion2" class="fl"><i class="fa fa-external-link"></i> ¿Qué son los Objetivos de Desarrollo Sostenible (ODS)?</a></p>
+<div id="definicion2"><p>Son 17 nuevos objetivos para el desarrollo sostenible y 169 metas que buscan erradicar la pobreza, combatir las desigualdades y promover la prosperidad, al tiempo que protegen el medio ambiente.
+Los ODS son la primera agenda internacional de desarrollo para los próximos 15 años y en cuya negociación participaron todos los Estados Miembros de la Organización de las Naciones Unidas. Esta nueva agenda consiste en un plan de acción para las personas, el planeta, la prosperidad, la paz y el trabajo conjunto de las Naciones.</p></div>
+               
+            </div>
+
+         </div>
+         <div class="container">
+             <div class="midLeft">
                <p>Para fomentar la equidad en el acceso a los servicios de salud e impulsar iniciativas conjuntas que reduzcan el número de muertes maternas y neonatales prevenibles,  desde UNICEF México contribuimos con experiencias y conocimientos al debate de los temas de esta Conferencia realizando actividades paralelas para difundir experiencias nacionales en temas de salud materna, neonatal y desarrollo infantil temprano:</p>
                <p>· Para promover prácticas seguras y eficientes de salud para las madres y sus bebés, presentamos un análisis de los <strong><em>Lineamientos clínicos para partos
 
@@ -645,26 +726,24 @@
                <p>· Realizamos un <strong><em>Activate Talks</em></strong>, una serie de charlas cortas especializadas en derechos de la infancia que tomaron como tema principal la <strong><em>Innovación en salud materna y primera infancia</em></strong>. Este espacio buscó incentivar el diálogo y la participación multisectorial sobre programas y acciones en torno a  los temas materno-infantil en el país. En el <strong><em>Activate Talks</em></strong>, aliados de UNICEF compartieron las iniciativas más relevantes en los sectores público, privado y social con las que UNICEF ha lanzado programas de alto impacto como: la <strong><em>Cartilla Mejorando el Desarrollo de mi Hija o Hijo</strong></em> que se ha distribuido con al apoyo de Banco Compartamos; la iniciativa <strong><em>Un buen comienzo</em></strong> con Fundación IMSS; y el <strong><em>Servicio de apoyo a madres embarazadas</em></strong> a través de teléfonos celulares lanzado por UNICEF en colaboración con el Programa de Inclusión Social Prospera y la Oficina de la Presidencia de la República.
  </p>
                <p>Adicionalmente a su participación en la Conferencia Global,  Geeta Rao Rupta, Directora Adjunta de UNICEF, sostuvo reuniones con Secretarios de Estado, actores de la sociedad civil organizada, y contrapartes del sector privado para conocer la situación de los niñez y la adolescencia en el país, así como dialogar sobre las estrategias y acciones a seguir para alcanzar las metas establecidas en los Objetivos para el Desarrollo Sostenible y en la Estrategia Mundial para la Salud de las Mujeres, Niños y Adolescentes de las Naciones Unidas.</p>
-               <p>Teniendo como testigo a la Directora Ejecutiva Adjunta de UNICEF, celebramos acuerdos de colaboración con diversas instancias de gobierno y sociedad civil, entre los que destacan aquellos firmados con:</p> </div>
+               
+            </div>
             <div class="midRight">
-               <iframe class="wow fadeInRight" width="568" height="320" src="https://player.vimeo.com/video/144541909" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-               <p>Intervención de Geeta Rao Rupta en evento de bienvenida de la Conferencia Global de Salud Materna y Neonatal.</p>
-               <div class="resaltarAzul">
-                  <h2>¿Qué es un Activate Talks?</h2>
-                  <p>Un Activate Talks es un espacio para que expertos, líderes e innovadores compartan sus pensamientos, iniciativas, proyectos o ideas para proponer soluciones a los principales problemas que enfrentan las niñas, niños y adolescentes en el mundo.</p>
-               </div>
-               <div class="resaltar">
-                  <h2>¿Qué son los Objetivos de Desarrollo Sostenible (ODS)?</h2>
-                  <p>Son 17 nuevos objetivos para el desarrollo sostenible y 169 metas que buscan erradicar la pobreza, combatir las desigualdades y promover la prosperidad, al tiempo que protegen el medio ambiente.
-Los ODS son la primera agenda internacional de desarrollo para los próximos 15 años y en cuya negociación participaron todos los Estados Miembros de la Organización de las Naciones Unidas. Esta nueva agenda consiste en un plan de acción para las personas, el planeta, la prosperidad, la paz y el trabajo conjunto de las Naciones.</p>
-               </div>
+               <br><br>
+               <iframe class="wow fadeInRight" width="568" height="320" src="https://www.youtube.com/embed/YCoG8WeOmb8?rel=0" frameborder="0" allowfullscreen></iframe>
+               <p>Activate Talks Innovación en salud materna y primera infancia.</p>
+               <p>
+                  <br>
+                  <br><img src="img/linea.png" alt=""> </p>
             </div>
          </div>
             <div class="container compromisos10">
-               
+               <div class="col-md-12">
+                  <p>Teniendo como testigo a la Directora Ejecutiva Adjunta de UNICEF, celebramos acuerdos de colaboración con diversas instancias de gobierno y sociedad civil, entre los que destacan aquellos firmados con:</p>
+               </div>
                <div class="col-md-6">
                   <div class="compromisoPleca">
-                     <div class="no">1</div>
+                     <div class="no toTop">1</div>
                      <div class="compromiso">
                         <p><strong>La Secretaría de
 
@@ -672,13 +751,13 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                      </div>
                   </div>
                   <div class="compromisoPleca">
-                     <div class="no">2</div>
+                     <div class="no toTop">2</div>
                      <div class="compromiso">
                         <p><strong>La Secretaría de Gobernación y el Sistema Nacional de Protección Civil</strong> para complementar esfuerzos para la atención de niños, niñas y adolescentes en casos de emergencias. </p>
                      </div>
                   </div>
                   <div class="compromisoPleca">
-                     <div class="no">3</div>
+                     <div class="no toTop">3</div>
                      <div class="compromiso">
                         <p><strong>La Secretaría de Desarrollo Social:</strong> para la realización de una política integral en materia de desarrollo infantil temprano, salud y nutrición. </p>
                      </div>
@@ -686,7 +765,7 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                </div>
                <div class="col-md-6">
                   <div class="compromisoPleca">
-                     <div class="no">4</div>
+                     <div class="no toTop">4</div>
                      <div class="compromiso">
                         <p><strong>Asociación Mexicana de Pediatría
 
@@ -694,7 +773,7 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                      </div>
                   </div>
                   <div class="compromisoPleca">
-                     <div class="no">5</div>
+                     <div class="no toTop">5</div>
                      <div class="compromiso">
                         <p><strong>La Fundación IMSS:</strong> para la promoción de la lactancia materna, el desarrollo infantil temprano, el registro del nacimiento y la creación de herramientas que proporcionen información puntual a las madres sobre los buenos cuidados del bebé. </p>
                      </div>
@@ -702,11 +781,13 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                </div>
             
          </div>
+         <hr>
          <div class="container">
+            <h2 class="sub">Acta de nacimiento, <br>la llave a todos sus derechos</h2>
             <div class="midLeft">
-               <h2 class="sub">Acta de nacimiento, <br>la llave a todos sus derechos</h2>
+               
                <p>El hecho de reconocerlos con un nombre, apellido y nacionalidad garantiza a todos los niños y niñas su derecho a la identidad, a ser visibles y con ello ejercer sus derechos para acceder  a servicios de salud, educación, cuidado y de protección. El acta de nacimiento se convierte en un documento muy poderoso que abre las puertas para que todos los niños y niñas puedan gozar plenamente de sus derechos fundamentales. </p>
-               </p>Cuando los niños y las niñas no cuentan con un registro desde el nacimiento se exponen con mayor facilidad a peligros como ser víctimas de trata de personas, los matrimonios forzados, las adopciones ilegales, el tráfico de personas, el reclutamiento forzado, etcétera. Por ello, es esencial que su registro se lleve a cabo inmediatamente después de haber nacido.</p>
+               <p>Cuando los niños y las niñas no cuentan con un registro desde el nacimiento se exponen con mayor facilidad a peligros como ser víctimas de trata de personas, los matrimonios forzados, las adopciones ilegales, el tráfico de personas, el reclutamiento forzado, etcétera. Por ello, es esencial que su registro se lleve a cabo inmediatamente después de haber nacido.</p>
                <p>En 2015 continuamos trabajando en la Campaña Nacional para el Registro Universal, Oportuno y Gratuito de Nacimientos “Si no los registras, no existen” que, desde abril de 2103 a septiembre de 2015, logró que 1 millón 127 mil 490 niños y niñas fueran registrados antes de su primer año de vida. Esta campaña que, desde su inicio contó con el apoyo de la Fundación CarlosSlim, es impulsada por UNICEF, el Registro Nacional de Población (RENAPO), el DIF Nacional, los Sistemas DIF estatales y las direcciones del Registro Civil en los 32 estados de la República Mexicana, también comprendió la realización de brigadas especiales en los estados para abatir el subregistro y continuar con los registros ya rutinarios. </p>
                <p>Con la finalidad de fortalecer las capacidades de las autoridades municipales y estatales para promover el derecho a la identidad, realizamos ocho talleres con más de 320 funcionarios  en los estados de Chiapas, Guerrero y Oaxaca, los cuales se caracterizan por tener bajos índices de registro oportuno de nacimientos. En estos estados, cerca de 19 mil niñas y niños no son registrados antes de su primer año de vida. Estos talleres buscaron impulsar la coordinación entre las autoridades federales, estatales y municipales para llegar, a través de políticas de salud, desarrollo social y registro, a los niños y niñas sin acta de nacimiento. </p>
                <p>Además, para impulsar que 100% de los niños y niñas que nacen en el país sean registrados, en UNICEF trabajamos con el RENAPO para identificar buenas prácticas sobre la universalización del registro de nacimiento. Se identificaron y examinaron 41 programas y acciones en 15 entidades del país que incluyen  el registro de nacimiento en hospitales materno-infantiles, la utilización de unidades móviles para llegar a poblaciones en áreas más remotas y campañas informativas en lenguas indígenas para mamás y papás de grupos indígenas o migrantes. Estas experiencias  formarán parte de una guía sobre cómo llegar a niños y niñas en situaciones de exclusión, que será publicada y compartida para promover el intercambio entre los estados, así como con otros países durante la III Conferencia Regional sobre el Derecho a la Identidad y al Registro de Nacimiento Universal, que se realizará en México en 2016. </p> </div>
@@ -738,15 +819,11 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
             <div class="midLeft">
                <p>En 2015, UNICEF y sus aliados distribuyeron la tarjeta <strong>Mejorando el Desarrollo de mi Hija o Hijo</strong>, y que se vio cristalizada en 2015 fue la tarjeta <strong><em>Mejorando el desarrollo de mi hija o hijo</em></strong>, una sencilla herramienta para padres y madres que los guía sobre el desarrollo físico, mental y emocional que debe tener todo niño entre los 0 y los 5 años. </p>
                <p>Gracias al apoyo de Banco Compartamos, se diseñó y desarrolló con la Secretaría de Salud esta tarjeta que se un insertó como parte de la Cartilla de vacunación y se entregó en una primera etapa a 7.8 millones de los 12.7 millones de niños y niñas de esas edades que viven en México. Dotar de mayor información y referencia a las familias sobre el desarrollo de sus hijos e hijas y el rol proactivo que tienen en él, permite detectar y atender a tiempo señales de alerta, que puedan contribuir a identificar oportunamente alguna discapacidad o enfermedad en los primeros años de vida de los niños y niñas.</p>
-               <p>
-                  <br><img src="img/encarte.jpg" alt=""> </p>
-               <p>
-                  <br>
-                  <br><img src="img/linea.png" alt=""> </p>
-               <p class="pieFoto">Tarjeta Mejorando el desarrollo de mi hija o hijo </p>
+               
+               
             </div>
             <div class="midRight">
-               
+               <br><br>
                <div class="subDatos">
                   <ul>
                      <li>Esta tarjeta tiene previsto llegar a los <strong>12.7 millones de niños y niñas</strong> que viven en México y tienen entre 0 y 5 años de edad.</li>
@@ -756,6 +833,20 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                      <li>Banco Compartamos, aliado de UNICEF México, financió la primera edición de la tarjeta, con un tiraje de 11.3 millones de ejemplares.</li>
                   </ul>
                </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="midLeft">
+                  <p><br><br>
+                  <img src="img/encarte.jpg" alt=""> </p>
+                  <p><br>
+                  <br><img src="img/linea.png" alt=""> </p>
+               <p class="pieFoto">Tarjeta Mejorando el desarrollo de mi hija o hijo </p>
+            </div>
+            <div class="midRight">
+               <br><br><p><a href="#" data-featherlight="#intCartilla"><img src="img/interiorCartilla.jpg" alt="" class="img-responsive"></a> </p>
+
+               <div id="intCartilla"><img src="img/interiorCartillaLG.jpg" class="img-responsive" alt=""></div>
             </div>
          </div>
          <div class="container">
@@ -782,7 +873,7 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                      <li>Soledad Atzompa, Veracruz</li>
                   </ul>
                </div>
-               <p><img src="img/mapaDesarrolloPublico.jpg" class="img-responsive" alt=""></p>
+               
                <p>Los hallazgos de este estudio servirán como una herramienta para que a nivel municipal y estatal se pueda desarrollar una estrategia integral a favor de la primera infancia y de sus familias. </p>
             </div>
             <div class="midRight">
@@ -791,19 +882,20 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                   <br>
                   <ul>
                      <li>En 2012,<strong>6.9 millones (55.5%) de los niños de entre 0 y 5 años de edad</strong>
-                        <br> vivían en condiciones de pobreza, y de éstos, 1.6 millones lo hacían en condiciones de pobreza extrema. </li>
+                        vivían en condiciones de pobreza, y de éstos, 1.6 millones lo hacían en condiciones de pobreza extrema. </li>
                      <li><strong>El mapeo de servicios públicos de Desarrollo Infantil Temprano</strong>
-                        <br> identificó <span>105
+                        identificó <span>105
 
                            intervenciones</span> federales y estatales que promueven el desarrollo infantil temprano en el país. </li>
                      <li><strong>El mapeo destaca</strong> que los operadores de campo de los programas de Desarrollo Infantil Temprano en los municipios de menor IDH se enfrentan a tres obstáculos de trabajo: barreras de lenguaje cuando en el municipio predomina una lengua indígena, información dispersa y falta de recursos para la promoción de los programas. </li>
                   </ul>
                </div>
+               <p><img src="img/mapaDesarrolloPublico.jpg" class="img-responsive" alt=""></p>
             </div>
          </div>
          <div class="container">
             <hr>
-            <h2 class="sub">Prospera Digital –<br>
+            <h2 class="sub">Prospera Digital: <br>
 
                   Tecnología que cambia vidas
 
@@ -815,8 +907,8 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                <p><strong><em>Prospera Digital</em></strong> envía mensajes SMS personalizados a través de <a href="http://www.unicefstories.org/tag/rapidpro/" target="_blank">#RapidPro</a>, una herramienta tecnológica desarrollada por UNICEF. Estos mensajes informan a las futuras mamás sobre cómo cuidar su embarazo e identificar señales de alarma, además les recuerdan que deben tomar sus complementos alimenticios, asistir a las consultas médicas, así como sobre qué es lo que deben hacer los doctores y enfermeras en cada una de dichas consultas. </p>
                <p>Los mensajes fueron desarrollados por UNICEF y sus aliados con el objetivo de realizar el seguimiento médico de las mujeres embarazadas y orientarlas sobre el cuidado de su salud, empoderarlas para la toma de decisiones bien informadas y contribuir a mejorar sus condiciones de vida y bienestar.</p>
                <p>El 10 de diciembre de 2015 dio inicio la primera fase piloto de Prospera Digital, a través de la cual se llegó a 300 clínicas en 600 comunidades, beneficiando a 5,000 mujeres embarazadas del país. Para que esto fuera posible meses antes, el proyecto implementó un pre-piloto en 12 clínicas de salud afiliadas al programa Prospera en 30 comunidades del Estado de México y como resultado se identificaron diez posibles complicaciones del parto que fueron referidas a la Secretaría de Salud estatal.</p>
-               </p>A diferencia de otras iniciativas que sólo envían información por SMS a mujeres embarazadas, <strong><em>Prospera Digital</em></strong> permite la interacción entre la beneficiaria y <strong><em>RapidPro</em></strong>, comenzando así una conversación a través de mensajes gratuitos. Para enviar la información más apropiada para cada caso, a las mujeres que participan en <strong><em>Prospera Digital</em></strong> se les pregunta su nombre o cómo quieren que se les llame, sus datos de identificación generales como beneficiarias del programa Prospera, su última fecha de menstruación o fecha probable de parto -si ya la conocen- y otros datos relevantes sobre su salud.De esta forma, <strong><em>Prospera Digital</em></strong> envía mensajes SMS personalizados que consideran las características específicas de salud y nutrición de cada mujer.
-               <p>
+               <p>A diferencia de otras iniciativas que sólo envían información por SMS a mujeres embarazadas, <strong><em>Prospera Digital</em></strong> permite la interacción entre la beneficiaria y <strong><em>RapidPro</em></strong>, comenzando así una conversación a través de mensajes gratuitos. Para enviar la información más apropiada para cada caso, a las mujeres que participan en <strong><em>Prospera Digital</em></strong> se les pregunta su nombre o cómo quieren que se les llame, sus datos de identificación generales como beneficiarias del programa Prospera, su última fecha de menstruación o fecha probable de parto -si ya la conocen- y otros datos relevantes sobre su salud.De esta forma, <strong><em>Prospera Digital</em></strong> envía mensajes SMS personalizados que consideran las características específicas de salud y nutrición de cada mujer.
+               </p>
                   <p>El proyecto de <strong><em>Prospera Digital</em></strong> será evaluado rigurosamente para analizar su impacto en la salud de las futuras mamás y de sus bebés con el objetivo de ser expandido por el Gobierno Federal para eventualmente incluir a todas las mujeres embarazadas que son beneficiarias del Programa Prospera. </p>
             </div>
             <div class="midRight">
@@ -879,8 +971,8 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                <p>La educación brinda a todos los niños y niñas mejores oportunidades de desarrollo, mejora sus capacidades de aprendizaje y los coloca en igualdad de condiciones frente a otros niños. La educación constituye un pilar para el progreso social y también se vincula a la mejora de los índices de salud y bienestar de un país. </p>
                <p>El sistema educativo mexicano cuenta con una matriculación casi universal en el nivel de educación básica y la relación de sexo en el acceso a la escuela es 1 a 1 entre niños y niñas. A pesar de estos  grandes avances, los niños y niñas indígenas, así como los niños con discapacidad enfrentan dificultades para tener acceso y terminar sus estudios.</p>
                <p>Junto con el Programa de las Naciones Unidas para el Desarrollo (PNUD) y la Organización Panamericana de la Salud (OPS), trabajamos con la Secretaría de Desarrollo Social (SEDESOL) para desarrollar una estrategia de inclusión educativa que mejorará la atención de más de 5,400 niños y niñas con discapacidad en aproximadamente 120 estancias infantiles en el país. Con esta estrategia se busca principalmente garantizar el derecho a la educación de todos los niños y niñas con discapacidad para que cuenten con las mismas oportunidades que otros niños para acceder a la escuela y reciban una educación de calidad sin ningún tipo de discriminación.</p>
-               </p>También, durante 2015, realizamos un estudio con el Instituto Nacional para la Evaluación de la Educación (INEE) para conocer el <strong>Panorama Educativo de la Población Indígena 2015</strong>, que proporciona información básica sobre el grado de cumplimiento del derecho a una educación de calidad entre la población indígena de México, especialmente de las niñas, niños y adolescentes en edad escolar. Esta colaboración pretende  trabajar coordinadamente con los distintos actores y agentes que buscan la mejora de la calidad educativa, así como generar y contar con información oportuna para los tomadores de decisiones y autoridades educativas participantes en el diseño de políticas públicas.</p>
-               </p>Además, en coordinación con la Secretaría de Educación Pública (SEP) se actualizó un estudio que forma parte de la Iniciativa Global por los Niños fuera de la Escuela. Este estudio brinda información y un análisis estadístico para crear un perfil de los niños y niñas que están fuera de la escuela o en riesgo de abandonarla. Además muestra las desigualdades del proceso educativo en México, busca detectar cuellos de botella, analizar las intervenciones federales y formular políticas y estrategias adecuadas al contexto de estos niños y niñas.</p>
+               <p>También, durante 2015, realizamos un estudio con el Instituto Nacional para la Evaluación de la Educación (INEE) para conocer el <strong>Panorama Educativo de la Población Indígena 2015</strong>, que proporciona información básica sobre el grado de cumplimiento del derecho a una educación de calidad entre la población indígena de México, especialmente de las niñas, niños y adolescentes en edad escolar. Esta colaboración pretende  trabajar coordinadamente con los distintos actores y agentes que buscan la mejora de la calidad educativa, así como generar y contar con información oportuna para los tomadores de decisiones y autoridades educativas participantes en el diseño de políticas públicas.</p>
+               <p>Además, en coordinación con la Secretaría de Educación Pública (SEP) se actualizó un estudio que forma parte de la Iniciativa Global por los Niños fuera de la Escuela. Este estudio brinda información y un análisis estadístico para crear un perfil de los niños y niñas que están fuera de la escuela o en riesgo de abandonarla. Además muestra las desigualdades del proceso educativo en México, busca detectar cuellos de botella, analizar las intervenciones federales y formular políticas y estrategias adecuadas al contexto de estos niños y niñas.</p>
             </div>
             <div class="midRight">
                <p>
@@ -940,7 +1032,8 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                   <br> Participaron 77 adolescentes, 100 niñas, 37 madres de familia, y 36 funcionarios públicos de los tres poderes de la Ciudad de México(CDMX). Además las niñas y los funcionarios pudieron intercambiar experiencias y buenas prácticas con participantes internacionales de Bolivia, Brasil, Jamaica y Perú. </p>
                <p><strong>· Foro de Niñas y Adolescentes Indígenas Tabasco (diciembre de 2015)</strong>
                   <br> Participaron 55 niñas de educación indígena, educación especial y telesecundaria de los municipios de Nacajuca, Centro, Macuspana y Jonuta junto con 53 madres de las niñas participantes; 14 docentes indígenas y de Educación Especial y 8 funcionarios de Salud, DIF, CCYTET (Consejo de Ciencia) y de la Universidad Intercultural. </p>
-               <p><img src="img/espaciosParticipacion.jpg" alt="" class="img-responsive"> </p>
+                  <iframe class="wow fadeInRight" width="96%" height="320" src="https://www.youtube.com/embed/fNaCBg-O9So?rel=0" frameborder="0" allowfullscreen></iframe>
+               
             </div>
             <div class="midLeft">
                <p><strong>· Jornadas Temáticas por los derechos de las niñas y adolescentes, y Día Internacional de la Niña en la Ciudad de México</strong>
@@ -949,11 +1042,11 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
 
                      Humanos de la Ciudad de México, Capítulo Infancia</strong>
                   <br> Por primera vez, el Mecanismo de Seguimiento y Evaluación del Programa de Derechos Humanos de la CDMX permitió realizar un espacio de consulta sobre su actualización y la agenda de derechos de los  niños, niñas y adolescentes que viven y transitan en la capital. Participaron de este ejercicio coordinado con la Secretaría de Gobierno de la CDMX, el DIF y Organizaciones de la Sociedad Civil, 95 niños, niñas y adolescentes de entre 6 y 15 años del barrio de Tepito -uno de los más vulnerables de la ciudad- con el fin de poder escucharles y ser tomados en cuenta para la agenda de derechos de la infancia de la CDMX. </p>
-               <p>Para impulsar las necesidades de los adolescentes en la agenda pública, trabajamos con otras instituciones para lograr cambios a largo plazo:
+               <p>Para impulsar las necesidades de los adolescentes en la agenda pública, trabajamos con otras instituciones para lograr cambios a largo plazo:</p>
                   <p><strong>• Red de Juventudes 2030</strong>
-                     <br>Incluye 21 organizaciones y grupos de reflexión. En agosto esta Red organizó la Cumbre internacional de “Buenas Prácticas en Políticas Públicas de Juventud”, un espacio en donde funcionarios de gobierno y expertos tanto nacionales como internacionales debatieron los temas que son trascendentales para el desarrollo de adolescentes y jóvenes: participación ciudadana; permanencia y deserción escolar; inserción laboral y empleo; salud sexual y reproductiva; y expresiones culturales juveniles. La Cumbre fue apoyada además por el Instituto Mexicano de la Juventud (IMJUVE),  la Secretaría de Gobernación, AMEXCID (Agencia Mexicana de  Cooperación Internacional para el Desarrollo) y la Fundación IDEA.
+                     <br>Incluye 21 organizaciones y grupos de reflexión. En agosto esta Red organizó la Cumbre internacional de “Buenas Prácticas en Políticas Públicas de Juventud”, un espacio en donde funcionarios de gobierno y expertos tanto nacionales como internacionales debatieron los temas que son trascendentales para el desarrollo de adolescentes y jóvenes: participación ciudadana; permanencia y deserción escolar; inserción laboral y empleo; salud sexual y reproductiva; y expresiones culturales juveniles. La Cumbre fue apoyada además por el Instituto Mexicano de la Juventud (IMJUVE),  la Secretaría de Gobernación, AMEXCID (Agencia Mexicana de  Cooperación Internacional para el Desarrollo) y la Fundación IDEA.</p>
                      <p><strong>• Comité técnico de estadísticas de juventud</strong>
-                        <br>Encabezado por IMJUVE, en donde proporcionamos asistencia técnica en la definición de indicadores sobre la participación y la ciudadanía, las familias, las escuelas y el bienestar físico y económico de los jóvenes; particularmente de los adolescentes.
+                        <br>Encabezado por IMJUVE, en donde proporcionamos asistencia técnica en la definición de indicadores sobre la participación y la ciudadanía, las familias, las escuelas y el bienestar físico y económico de los jóvenes; particularmente de los adolescentes.</p>
                         <p><strong>• Comité Técnico Asesor de las Naciones Unidas en México para IMJUVE</strong>
                            <br>Con el fin de apoyar el desarrollo e implementación de políticas públicas de juventud.</p>
                         <p><strong>• Colaboración con el Instituto Nacional Electoral (INE) y el IMJUVE</strong>
@@ -978,6 +1071,7 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                
             </div>
             <div class="midRight">
+               <p><br><br><img src="img/uReportLogo.jpg" alt=""></p>
                <iframe class="wow fadeInRight" width="568" height="320" src="https://www.youtube.com/embed/lRTzD2Q6KhA?rel=0" frameborder="0" allowfullscreen></iframe>
                <p>¿Eres de los que solamente se cuestionan los problemas o eres de los que también hacemos algo para solucionarlos? Haz que tu voz cuente</p>
                <p>
@@ -998,7 +1092,7 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
             </div>
          </div>
          <div class="container">
-            <div class="resaltar">
+            <div class="resaltar soloTexto">
                   <p>La iniciativa U-Report se presentó durante la Ceremonia Inaugural del Encuentro Anual de Jóvenes Voluntarios de la Cruz Roja, frente a más de 2,000 jóvenes de más de 200 ciudades del país. Además de permitir que las ideas y propuestas de los jóvenes sean tanto escuchadas como compartidas a través de herramientas tecnológicas, con U-Report se podrán construir plataformas de comunicación para empoderar a las comunidades y fortalecer su capacidad de resiliencia. Al compartir información crucial a través de redes sociales y mensajes SMS, es posible generar capacidades de prevención para que niños, niñas y adolescentes y sus familias, puedan enfrentar de mejor manera situaciones de emergencia y desastre.</p>
                   <p>Bajo esta alianza de UNICEF con la Cruz Roja, en 2016 se desarrollará un plan enfocado en construir resiliencia para las emergencias y prevenir la violencia.</p>
                </div>
@@ -1032,7 +1126,6 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                <iframe class="wow fadeInRight" width="568" height="320" src="https://www.youtube.com/embed/59css5LzctY?rel=0" frameborder="0" allowfullscreen></iframe>
                <p>Ve el video completo del evento #IdeasJóvenesMX
                   <br><img src="img/linea.png" alt=""> </p>
-               <p>
                   <p>¿Qué opinan los jóvenes sobre la consulta #IdeasJóvenesMX? Aquí los resultados completos:
                      <br><a href="http://mexico.ureport.in/poll/241/" target="_blank"><i class="fa fa-external-link"></i>
 
@@ -1050,7 +1143,10 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                <p>U-Report también ha servido para informar a los gobiernos sobre los tipos de espacios públicos que niños, niñas y adolescentes prefieren en sus ciudades. Como parte de la Aldea Digital Telcel 4G LTE-Infinitum, que se realizó del 10 al 26 de julio de 21015, UNICEF y ONU-Hábitat lanzamos el reto “Construye tu Ciudad” en el que más de 3 mil niños jugaron con el videojuego Minecraft para remodelar parques, plazas y calles de la Ciudad de México; Mérida, Yucatán, y Saltillo, Coahuila. </p>
                <p>Al final de cada día de la Aldea Digital, un grupo de urbanistas seleccionaron los proyectos finalistas y los sometieron a votación a través de U-Report, en donde 344 jóvenes participaron como jurado para seleccionar dos proyectos por ciudad, que fueron entregados a los gobiernos locales para su desarrollo. </p>
             </div>
-            <div class="midRight"> </div>
+            <div class="midRight">
+               <br><br>
+               <img src="img/aldeaDigital.jpg" class="img-responsive" alt="">
+            </div>
          </div>
          <div class="container">
             <hr>
@@ -1079,18 +1175,30 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
          <div class="banner">
             <div class="primary">
                <div class="intro nt animated">
-                  <h1>Emergencias: <strong>estamos donde más nos necesitan</strong></h1> </div>
+                  <h1><strong>Emergencias: estamos donde <br>más nos necesitan</strong></h1> </div>
             </div>
          </div>
          <div class="container">
             <h2 class="sub">Llevamos esperanza y cuidado <br>a niños en peligro en todo el mundo</h2>
             <div class="midLeft">
                <p><strong>2015 se caracterizó por ser un año duro para la niñez en el mundo</strong>; un año en el que millones de niños y sus familias huyeron de sus hogares –muchas veces poniendo en riesgo sus vidas- para buscar protección y encontrar nuevas oportunidades para tener un mejor presente y un mejor futuro.</p>
-               </p>Por ello, como organización internacional respondimos a más de 250 emergencias de manera simultánea en todo el mundo y  actuamos ante cinco grandes emergencias que necesitaron de nuestra ayuda humanitaria: la epidemia de ébola en África Occidental, así como los conflictos permanentes en la República Centroafricana, Iraq, Sudán del Sur, la República Árabe Siria y Yemen.</p>
-               </p>Otras emergencias relacionadas con el clima también pusieron en peligro la vida de miles de niños que viven en zonas propensas a inundaciones, huracanes, tsunamis y otros desastres naturales.</p>
-               </p>Se estima que a nivel mundial más de 250 millones de niños y niñas viven en los países y las zonas afectadas por estos conflictos armados, 30 millones de niños y niñas se han visto obligados a desplazarse de sus ciudades de origen y 500 millones viven en zonas de alto riesgo de inundación a causa del cambio climático.</p>
-               </p>La respuesta no sólo se centró en atender las necesidades inmediatas de la infancia (salud, alimentación o vivienda), sino que también abarcó acciones de largo plazo para ayudar a los niños y a sus familias a ser más resilientes ante las emergencias.</p>
-               </p>A pesar de los enormes desafíos a los que se han enfrentado los niños, también ha habido esperanzas para otros millones de niños afectados por los conflictos y las crisis. En 2015 proporcionamos a los niños asistencia vital y otros servicios esenciales como la educación y el apoyo emocional, en algunos de los lugares más peligrosos del mundo.</p>
+               <p>Por ello, como organización internacional respondimos a más de 250 emergencias de manera simultánea en todo el mundo y  actuamos ante cinco grandes emergencias que necesitaron de nuestra ayuda humanitaria: la epidemia de ébola en África Occidental, así como los conflictos permanentes en la República Centroafricana, Iraq, Sudán del Sur, la República Árabe Siria y Yemen.</p>
+               <p>Otras emergencias relacionadas con el clima también pusieron en peligro la vida de miles de niños que viven en zonas propensas a inundaciones, huracanes, tsunamis y otros desastres naturales.</p>
+               <p>Se estima que a nivel mundial más de 250 millones de niños y niñas viven en los países y las zonas afectadas por estos conflictos armados, 30 millones de niños y niñas se han visto obligados a desplazarse de sus ciudades de origen y 500 millones viven en zonas de alto riesgo de inundación a causa del cambio climático.</p>
+               <p>La respuesta no sólo se centró en atender las necesidades inmediatas de la infancia (salud, alimentación o vivienda), sino que también abarcó acciones de largo plazo para ayudar a los niños y a sus familias a ser más resilientes ante las emergencias.</p>
+               <p>A pesar de los enormes desafíos a los que se han enfrentado los niños, también ha habido esperanzas para otros millones de niños afectados por los conflictos y las crisis. En 2015 proporcionamos a los niños asistencia vital y otros servicios esenciales como la educación y el apoyo emocional, en algunos de los lugares más peligrosos del mundo.</p>
+               
+               
+               <br><br> 
+
+               
+            </div>
+            <div class="midRight">
+               <br>
+               <div class="quote">
+                  <p><strong>El mundo puede y debe hacer más para lograr que 2015 sea un año mucho mejor para todos los niños. Cada niño que crece fuerte, seguro, saludable y educado es un niño que puede seguir aportando cosas a sí mismo, a su familia, a su comunidad, a su nación y, de hecho, a nuestro futuro común.</strong>
+                     <br> <em>Anthony Lake , Director Ejecutivo de UNICEF</em> </p>
+                  <br> </div>
                <div class="subDatos">
                   <p>Algunos de los resultados principales que UNICEF y sus aliados durante 2015 fueron:</p>
                   <ul>
@@ -1102,28 +1210,25 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                   </ul>
 
                </div>
-               <h2>Para ayudar a más de un millón de niños y niñas en Siria, desde UNICEF lanzamos un llamado de ayuda solidaria</h2>
+               <p><br> <img src="img/linea.png" alt="">
+               <br><br></p>
+               
+
+            </div>
+         </div>
+         <div class="container">
+            <h2 class="sub">Para ayudar a más de un millón de niños<br>
+               y niñas en Siria, desde UNICEF lanzamos <br>
+               un llamado de ayuda solidaria</h2>
+            <div class="midLeft">
+               
                <p>El conflicto en Siria ha puesto en riesgo la vida de 6  millones de niños y niñas que están sufriendo la violencia, el desplazamiento a gran escala y la falta de atención a sus necesidades básicas. El número de niños refugiados sirios ya ha alcanzado el millón en los países europeos y el número sube cada día, los campamentos para recibirlos están sobrepoblados y sin acceso suficiente a agua potable, además del estrés emocional por la violencia, el desarraigo y la incertidumbre que produce la huida del hogar. </p>
                <p>Hemos estado presentes en la región desde el inicio de la crisis en Siria para garantizar que todas las necesidades urgentes de la infancia sean atendidas. Desde principios de 2015, en la República Árabe Siria proporcionamos agua potable a más de 10.2 millones de personas afectadas por esta crisis, además vacunamos a más de 2.4 millones de niños contra enfermedades, apoyamos la reinserción de 1.15 millones de niños y niñas en programas de educación y brindamos apoyo psicosocial a más de 327,000. </p>
-
-               
             </div>
             <div class="midRight">
-               <div class="quote">
-                  <p><strong>El mundo puede y debe hacer más para lograr que 2015 sea un año mucho mejor para todos los niños. Cada niño que crece fuerte, seguro, saludable y educado es un niño que puede seguir aportando cosas a sí mismo, a su familia, a su comunidad, a su nación y, de hecho, a nuestro futuro común.</strong>
-                     <br> <em>Anthony Lake , Director Ejecutivo de UNICEF</em> </p>
-                  <br> </div>
-               <p><img src="img/siria02.jpg" class="img-responsive" alt=""><br>Para ayudar a más de 6 millones de niños y niñas en Siria, desde UNICEF lanzamos un llamado de ayuda solidaria </p>
-               <div class="clear"></div>
-               <br> <img src="img/linea.png" alt="">
-               <br>
-               <br>
-               <p><img src="img/siria01.jpg" class="img-responsive" alt=""><br>Emergencia después de que dos terremotos devastaran Nepal </p>
-               <p><br> <img src="img/linea.png" alt="">
-               <br></p>
+               <br><br>
                <p><a href="http://www.donaunicef.mx" target="_blank"><img src="img/donaUnicef.jpg" class="img-responsive" alt=""></a></p>
                <p><strong>DONA UNICEF</strong><br>Colabora para salvar más vidas en las zonas de conflicto. Realiza una donación en: <br> <a href="http://www.donaunicef.mx" target="_blank"><i class="fa fa-external-link"></i> www.donaunicef.mx</a></p>
-
             </div>
          </div>
          <div class="infografiaSiria"> <img src="img/Infografia_Siria.jpg" class="img-responsive" alt=""> </div>
@@ -1163,6 +1268,8 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
             </div>
             <div class="midLeft">
                <p>Asimismo para brindarles mayor protección, atendimos a más de 2,250 niños, niñas y adolescentes migrantes no acompañados o separados que se beneficiaron de servicios de búsqueda y reunificación familiar, así como de servicios psicosociales. También con nuestros aliados en gobierno y sociedad civil proporcionamos capacitación a los trabajadores sociales y personal de asistencia en Croacia y Serbia sobre los compromisos básicos de protección a la infancia.</p>
+               <p><img src="img/emergencia00.jpg" class="img-responsive" alt=""></p>
+               <p class="pieFoto">Miles de niños llegan a Europa a través del Mediterráneo vía terrestre o marítima, arriesgándolo todo incluso su vida</p>
             </div>
          </div>
          <div class="infografiaEuropa"> <img src="img/Infografia_inmigrantes_Europa.jpg" class="img-responsive" alt=""> </div>
@@ -1195,12 +1302,13 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
          </div>
          <div class="container">
             <div class="col-xs-12 col-completa">
-               <p><strong>Durante los últimos años, México ha sido uno de los países que ha resentido los efectos del cambio climático; por ejemplo, del 2010 al 2013, más de 7.8 millones de personas han sido afectadas por desastres naturales que, en su mayoría, han estado relacionados con lluvias, inundaciones y ciclones tropicales. </p>
+               <p><strong>Durante los últimos años,</strong> México ha sido uno de los países que ha resentido los efectos del cambio climático; por ejemplo, del 2010 al 2013, más de 7.8 millones de personas han sido afectadas por desastres naturales que, en su mayoría, han estado relacionados con lluvias, inundaciones y ciclones tropicales. </p>
                <p>Para garantizar tanto los derechos como la seguridad de los niños que viven en esas zonas de alta vulnerabilidad que pueden verse afectadas por un desastre natural o una emergencia, hemos emprendido diferentes acciones junto con instituciones de gobierno para saber qué se debe hacer antes, durante y después de cualquier emergencia. </p>
                <p>UNICEF en convenio con la Secretaria de Gobernación (SEGOB) apoya al Sistema Nacional de Protección Civil en materia de protección y fortalecimiento del manejo de riesgos con la participación tanto de los niños, niñas y adolescentes como de sus comunidades a fin de enfrentar de manera preparada cualquier tipo de desastres naturales  o emergencias en México.</p>
             </div>
             <div class="midRight"> </div>
          </div>
+         <hr>
          <div class="container">
             <h2 class="sub"><span>Protección</span> para niños y niñas <br>
 
@@ -1217,6 +1325,7 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                <img src="img/emergencia04.jpg" class="img-responsive" alt="">
                </div>
             </div>
+            <hr>
             <div class="container">
                <h2 class="sub"><span>Prevención</span> de riesgos en las <br>
 
@@ -1235,24 +1344,24 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                </div>
                
             </div>
-           
+           <hr>
            <div class="container">
             <div class="midLeft">
                <h2 class="sub">Impulsando las capacidades estatales <br>en temas de emergencia</h2>
                <p>Con la finalidad de apoyar en la especialización sobre temas como atención psicosocial y protección de derechos de niños, niñas y adolescentes afectados por los desastres naturales, violencia armada y migración; fortalecimos el <strong><em>Diplomado Virtual en Intervención Psicosocial con Niñas, Niños y Adolescentes en Emergencias y Desastres</em></strong> al desarrollar -con el apoyo del Centro de Derechos Humanos Fray Matías- un nuevo módulo sobre el apoyo psicosocial a la niñez en situación de migración.
-                  <p>
+                  </p>
                      <p>Asimismo, en 2015, alrededor de 72 funcionarios de Protección Civil, Secretaría de Educación y de los sistemas DIF en los estados de Oaxaca, Tamaulipas y Tabasco participaron en este  diplomado virtual que UNICEF ha impulsado con la Universidad Autónoma de Chiapas y la Asociación Civil Investigación y Educación Popular Autogestiva (IEPAAC).
-                        <p>
+                        </p>
                            <br>
             </div>
             <div class="midLeft">
                <h2 class="sub">Respondiendo al huracán Patricia</h2>
                            <p>El 23 de octubre, la costa del pacífico mexicano fue golpeada por el huracán Patricia, el cual fue catalogado como el más poderoso de la historia al alcanzar en menos de 24 horas la categoría 5 en la escala Saffir-Simpson.
-                              <p>
+                              </p>
                                  <p>Más de 50,000 personas fueron evacuadas de las zonas costeras, incluyendo 28,000 turistas. A pesar de que México se enfrentaba ante un panorama poco alentador, la preparación de la población y el rápido despliegue del Sistema Nacional de Protección Civil de México fueron cruciales para salvar vidas.
-                                    <p>
+                                    </p>
                                        <p>En UNICEF apoyamos estableciendo una comunicación con la población a través de las redes sociales al enviar mensajes relacionados con las medidas de protección para los niños antes, durante y después de la emergencia. Asimismo brindamos ayuda a los estados de Jalisco, Nayarit y Michoacán para suministrar kits de educación “School-in-a-Box”, con materiales básicos para ayudar al regreso a clases de 12,000 niños en las escuelas primarias y secundarias que habían sido dañados por el paso del huracán Patricia en esos estados.
-                                          <p>
+                                          </p>
                                              <br>
             </div>
          </div>
@@ -1364,10 +1473,18 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
 
                      </h2>
                   <p>Los muchos beneficios de la lactancia materna, entrevistas con especialistas, fotografías, infografías y mucho más temas formaron parte de un suplemento especial del diario El Universal con motivo del Día del Niño. Más de 25,000 ejemplares de este suplemento fueron distribuidos por todo el país. </p>
-                  <p>Suplemento especial #SíaLaLactancia en El Universal <a href="http://uni.cf/1MkwldL" target="_blank"><i class="fa fa-external-link"></i> http://uni.cf/1MkwldL</a> </p>
+                  
                </div>
                <div class="midRight">
-                  <h2>&nbsp;</h2> </div>
+
+               <br>
+               <img src="img/suplemento.jpg" width="160" alt="">
+               <br>
+               <p><br>Suplemento especial #SíaLaLactancia en El Universal <a href="http://uni.cf/1MkwldL" target="_blank"><i class="fa fa-external-link"></i> http://uni.cf/1MkwldL</a> </p>
+               <p>
+                     <br>
+                     <br><img src="img/linea.png" alt=""> </p>
+               </div>
             </div>
             <div class="container verde">
                <div class="midLeft">
@@ -1379,6 +1496,14 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                   <p>Las reconocidas charlas de UNICEF Activate Talks, promovidas en más de 20 países de todo el mundo, llegaron a México para hablar de lactancia y ayudar a borrar algunos de los mitos más difundidos en el país. El evento -al que asistieron casi cien personas como mamás con sus bebés, blogueras, periodistas, expertos y especialistas de UNICEF- fue visto por cientos de personas en directo a través de nuestra web global y del Centro de Información de la ONU en México. </p>
                   <p>Tanto en esa charla como en eventos sucesivos, distribuimos un folleto informativo dirigido a 20,000 madres y padres para informar sobre los beneficios de la lactancia. </p>
                </div>
+               <div class="midRight">
+                  <br>
+                  <p><img src="img/siLactancia.jpg" class="img-responsive" alt=""></p>
+                  <p>
+                     <br>
+                     <br><img src="img/linea.png" alt=""> </p>
+               </div>
+            </div>
                
             <div class="container verde">
                <div class="midLeft">
@@ -1407,7 +1532,7 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                   
                   <p>Para llegar a más lugares con información relevante de la lactancia, realizamos por primera vez un Google Hangout, un encuentro que se hace a través de videoconferencias en la red social Google+  y Youtube. Los participantes de este encuentro interactuaron con expertas y activistas en lactancia y mamás trabajadoras, en donde hablaron sobre las dificultades a las que se enfrentan las mamás en sus lugares de trabajo para poder amamantar, extraerse la leche y compaginar su vida laboral con la personal. </p>
                   <p>El video del Google Hangout ha tenido más de 4,600 visitas en internet y ha sido consultado desde muchos estados del país. </p>
-                  <div class="recuadro">
+                  <div class="recuadro soloTexto">
                      <h3>¿Qué es un Google Hangout?</h3>
                      <p>Un Google Hangout es una herramienta para realizar videoconferencias en directo a través de la red social Google+ o de un canal de Youtube. Los participantes en este encuentro pueden interactuar con los ponentes y con otros usuarios al participar en una sesión de preguntas y respuestas en simultáneo.</p>
                   </div>
@@ -1456,6 +1581,9 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                <div class="midRight">
                   <iframe class="wow fadeInRight" width="568" height="320" src="https://www.youtube.com/embed/Bo7jjFap-k8" frameborder="0" allowfullscreen></iframe>
                   <p>Video Trailer MILK</p>
+                  <p>
+                     <br>
+                     <br><img src="img/linea.png" alt=""> </p>
                </div>
             </div>
             <div class="container verde">
@@ -1463,9 +1591,14 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                   <h2><span>9</span> Exposición Six Flags <br>en apoyo a la lactancia</h2>
                   <p>NOTIMEX y Six Flags fueron grandes aliados de UNICEF en la promoción de la lactancia materna y por esa razón prepararon una exposición en el parque de atracciones que fue visitada por más de 28,000 personas. </p>
                </div>
-               <div class="midLeft">
-                  <h2>&nbsp;</h2> </div>
-            </div>
+               <div class="midRight">
+                  <br>
+                  <p><img src="img/sixFlags.jpg" class="img-responsive" alt=""></p>
+                  <p>
+                     <br>
+                     <br><img src="img/linea.png" alt=""> </p>
+               </div>
+            </div>  
             <div class="container verde">
                <div class="midLeft">
                   <h2><span>10</span> Fiesta Mexicana de la
@@ -1500,54 +1633,50 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
 
                   </h2>
                <p>Para llamar la atención sobre la situación de la niñez en el mundo, en alianza con el programa infantil <em>Alas y Raíces</em> del Consejo Nacional para la Cultura y las Artes (CONACULTA), en 2015 continuamos con la exhibición de las 36 fotografías que componen la exposición “Infancia” de Isabel Muñoz. Esta vez se imprimió una versión para exteriores y se expuso en importantes espacios culturales, recreativos y turísticos de la Ciudad de México, Coahuila y Morelos.</p>
+               <p>La exposición Infancia ha sido vista por más de 750,000 personas y durante 2016 continuará su recorrido por el país.</p>
             </div>
             <div class="midRight">
                <p><img src="img/Infancia_MetroPino_Suarez.jpg" class="img-responsive" alt=""></p>
             </div>
             <div class="clear"></div>
             <br>
-            <p>La exposición Infancia ha sido vista por más de 750,000 personas y durante 2016 continuará su recorrido por el país.</p>
+            
          </div>
          <div class="container">
             <div class="col-md-8 col-md-offset-2">
                <table class="table">
                   <thead>
-                     <tr>
-                        <th>Ciudad de México</th>
-                        <th>Coahuila</th>
-                        <th>Morelos</th>
-                     </tr>
+                     <tr><th>
+                        Ciudad de México
+                     </th></tr>
                   </thead>
                   <tbody>
                      <tr>
-                        <td>Estación del Metro Pino Suárez</td>
-                        <td><strong>Festival “Las Maromas”, Piedras Negras, Coahuila</strong> </td>
+                        <td>Estación del Metro Pino Suárez, Parque Bicentenario, Rejas del Bisque de Aragón, Paseo Heroico del Bosque de Chapultepec, Biblioteca México y Palacio Nacional.</td>
+                     </tr>
+                  </tbody>
+               </table>
+               <table class="table">
+                  <thead>
+                     <tr><th>
+                        Coahuila
+                     </th></tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>Festival “Las Maromas”, Piedras Negras, Coahuila.</td>
+                     </tr>
+                  </tbody>
+               </table>
+               <table class="table">
+                  <thead>
+                     <tr><th>
+                        Morelos
+                     </th></tr>
+                  </thead>
+                  <tbody>
+                     <tr>
                         <td>Papalote Museo del Niño de Cuernavaca, Morelos.</td>
-                     </tr>
-                     <tr>
-                        <td>Parque Bicentenario</td>
-                        <td></td>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <td>Rejas del Bosque de Aragón</td>
-                        <td></td>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <td>Paseo Heroico del Bosque de Chapultepec</td>
-                        <td></td>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <td>Biblioteca México</td>
-                        <td></td>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <td>Palacio Nacional</td>
-                        <td></td>
-                        <td></td>
                      </tr>
                   </tbody>
                </table>
@@ -1567,6 +1696,7 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                   <br><img src="img/linea.png" alt=""> </p>
             </div>
          </div>
+         <hr>
          <div class="container blanco">
             <div class="midLeft">
                <h2 class="sub">Festival MIC Género</h2>
@@ -1582,6 +1712,7 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                   <br><img src="img/linea.png" alt=""> </p>
             </div>
          </div>
+         <hr>
          <div class="container blanco">
             <h2 class="sub">UNICEF: <br>70 años
 
@@ -1589,7 +1720,7 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
 
                </h2>
             <div class="midLeft">
-               <p>PPara conmemorar los 70 años de trabajo de UNICEF en el mundo que se celebrará el 11 de diciembre de 2016, montamos la exposición “70 años cambiando vidas” en las Galerías Abiertas de las Rejas de Chapultepec. 86 fotografías hacen un recorrido por los principales momentos históricos que han marcado la defensa de los derechos de los niños, niñas y adolescentes y, que además, reflejan el trabajo humanitario que la organización ha realizado tanto en México como en el mundo por más de siete décadas. </p>
+               <p>Para conmemorar los 70 años de trabajo de UNICEF en el mundo que se celebrará el 11 de diciembre de 2016, montamos la exposición “70 años cambiando vidas” en las Galerías Abiertas de las Rejas de Chapultepec. 86 fotografías hacen un recorrido por los principales momentos históricos que han marcado la defensa de los derechos de los niños, niñas y adolescentes y, que además, reflejan el trabajo humanitario que la organización ha realizado tanto en México como en el mundo por más de siete décadas. </p>
                <p>Exposición 70 años cambiando vidas <a href="http://www.cambiavidasconunicef.org/" target="_blank"><i class="fa fa-external-link"></i> http://www.cambiavidasconunicef.org/</a> </p>
             </div>
             <div class="midRight">
@@ -1661,6 +1792,7 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                <p>Ángeles por los niños</p>
             </div>
          </div>
+         <hr>
          <div class="container">
             <h2 class="sub">Brands in Action: Apoyar la educación de niños <br> en zonas
 
@@ -1684,16 +1816,17 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
                   </h2>
                <p>Más allá de la productividad, una empresa se distingue por su visión de implementar estrategias para mejorar su entorno, contribuir a la sociedad y su aportación para un futuro mejor para toda su cadena de valor. En UNICEF, junto con nuestros aliados, desarrollamos los Derechos del Niño y Principios Empresariales para apoyar el compromiso de las empresas con la infancia. </p>
                <p>Los Principios Empresariales identifican las acciones que las empresas deben llevar a cabo para prevenir los impactos negativos sobre los niños, así como las medidas voluntarias que pueden adoptar para promover los derechos de la infancia. </p>
-               <br> </div>
+               <div class="quote recuadro soloTexto">
+                  <p>“No les pedimos a las empresas que hagan algo diferente a su actividad normal, les pedimos que realicen su actividad de manera diferente”</p>
+                  <p><em>Kofi Annan, exSecretario General de la ONU</em> </p>
+               </div>
+            </div>
             <div class="midRight">
                <iframe class="wow fadeInRight" width="568" height="320" src="https://www.youtube.com/embed/VuIZ2NoTLWA" frameborder="0" allowfullscreen></iframe>
                <p>Derechos del niño y Principios Empresariales </p>
                <br>
                <br>
-               <div class="quote">
-                  <p>“No les pedimos a las empresas que hagan algo diferente a su actividad normal, les pedimos que realicen su actividad de manera diferente”</p>
-                  <p><em>Kofi Annan, exSecretario General de la ONU</em> </p>
-               </div>
+               
                </div>
             <p><img src="img/infoDerechos.png" class="img-responsive" alt=""> </p>
             <p>
@@ -1714,7 +1847,7 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
             </div>
             <div class="clear"></div>
          </div>
-         <hr>
+         
          <div class="container">
             <div class="row bloques">
                
@@ -1775,7 +1908,7 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
             </div>
          </div>
 
-         
+         <hr>
          <div class="container">
             <div class="midLeft">
                <h2 class="sub">Socio UNICEF</h2>
@@ -1980,83 +2113,180 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
          </div>
          <div class="container publis">
             <div class="midLeft">
-               <p>
-                  <a href="http://www.unicef.org/mexico/spanish/17054_31028.htm" target="_blank"><img src="img/publi-03.jpg" alt=""> </a> <strong><i class="fa fa-external-link"></i> Informe sobre la equidad del gasto público en la
-
-                     infancia y la adolescencia</strong>
-                  <br> El <em>Informe sobre la equidad del gasto público en la infancia y adolescencia en México</em> analiza, con un enfoque en el desarrollo humano, la equidad del gasto público destinado a la infancia y examinar los resultados de la actual distribución de recursos, así como sus efectos de las políticas públicas en las dimensiones de salud, educación e ingreso.
-                  <br> </p>
-               <p>
-                  <a href="http://www.unicef.org/mexico/spanish/17054_31048.htm" target="_blank"><img src="img/publi-01.jpg" alt=""> </a> <strong><i class="fa fa-external-link"></i> Infografía. Desarrollo Humano y gasto público
+               <div class="row">
+                  <div class="col-md-3">
+                     <p>
+                        <a href="http://www.unicef.org/mexico/spanish/17054_31028.htm" target="_blank"><img src="img/publi-03.jpg" alt=""> </a>
+                     </p>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                     <strong><i class="fa fa-external-link"></i> Informe sobre la equidad del gasto público en la
+                  
+                        infancia y la adolescencia</strong>
+                     <br> El <em>Informe sobre la equidad del gasto público en la infancia y adolescencia en México</em> analiza, con un enfoque en el desarrollo humano, la equidad del gasto público destinado a la infancia y examinar los resultados de la actual distribución de recursos, así como sus efectos de las políticas públicas en las dimensiones de salud, educación e ingreso.
+                  </p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-3">
+                     <p><a href="http://www.unicef.org/mexico/spanish/17054_31048.htm" target="_blank"><img src="img/publi-01.jpg" alt=""> </a></p>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                   <strong><i class="fa fa-external-link"></i> Infografía. Desarrollo Humano y gasto público
 
                      para niñas, niños y adolescentes en México</strong>
                   <br> ¿Cómo entender el gasto público en la infancia y la adolescencia? Esta infografía explica cómo se distribuye el gasto de acuerdo con los grupos de edad de la población infantil y cómo atender sus necesidades.
                   <br> </p>
-               <p>
-                  <a href="http://www.unicef.org/mexico/spanish/17054_31047.htm" target="_blank"><img src="img/publi-02.jpg" alt=""> </a> <strong><i class="fa fa-external-link"></i> Infografía. Informe sobre la equidad del gasto
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-3">
+                     <p><a href="http://www.unicef.org/mexico/spanish/17054_31047.htm" target="_blank"><img src="img/publi-02.jpg" alt=""> </a></p>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                   <strong><i class="fa fa-external-link"></i> Infografía. Informe sobre la equidad del gasto
 
                      público en la infancia y la adolescencia en México</strong>
                   <br> La relación entre el enfoque de desarrollo humano y los derechos de la infancia es complementaria y ayuda a identificar a los más vulnerables. Esta infografía presenta brevemente quienes son los niños, niñas y adolescentes, cuál es su Índice de desarrollo humano y donde se ubican los grupos más vulnerables.
                   <br> </p>
-               <p>
-                  <a href="http://www.unicef.org/mexico/spanish/Diagnostico_adolescentes_web.pdf" target="_blank"><img src="img/publi-04.jpg" alt=""> </a> <strong><i class="fa fa-external-link"></i> Diagnóstico sobre la situación de los adolescentes
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-3">
+                     <p><a href="http://www.unicef.org/mexico/spanish/Diagnostico_adolescentes_web.pdf" target="_blank"><img src="img/publi-04.jpg" alt=""> </a></p>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                   <strong><i class="fa fa-external-link"></i> Diagnóstico sobre la situación de los adolescentes
 
                      que cometen delitos graves en México</strong>
                   <br> El estudio realiza un diagnóstico de la situación de las y los adolescentes privados de libertad en diferentes centros de internamiento en cuatro estados del país (Coahuila, Hidalgo, Morelos y Sinaloa), con la finalidad de generar mayor conocimiento sobre esta población y orientar el desarrollo de políticas públicas eficaces para contribuir a la disminución de la violencia y la inseguridad en el país.
                   <br> </p>
-               <p>
-                  <a href="http://www.unicef.org/mexico/spanish/SITAN_Hidalgo.pdf" target="_blank"><img src="img/publi-05.jpg" alt=""> </a> <strong><i class="fa fa-external-link"></i> Los derechos de la infancia y la adolescencia en
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-3">
+                     <p><a href="http://www.unicef.org/mexico/spanish/SITAN_Hidalgo.pdf" target="_blank"><img src="img/publi-05.jpg" alt=""> </a></p>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                   <strong><i class="fa fa-external-link"></i> Los derechos de la infancia y la adolescencia en
 
                      Hidalgo</strong>
                   <br> En este informe se presentan los avances y desafíos en el cumplimiento de los derechos de la niñez y la adolescencia en Hidalgo, al realizar un análisis de la situación de la infancia en el estado. El estudio busca contribuir a la construcción de entornos que promuevan y protejan los derechos de la niñez y la adolescencia de manera integral.
                   <br> </p>
-               <p>
-                  <a href="http://www.unicef.org/mexico/spanish/17054_28977.htm" target="_blank"><img src="img/publi-11.jpg" alt=""> </a> <strong><i class="fa fa-external-link"></i> Ley General de los Derechos de Niñas, Niños y
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-3">
+                     <p><a href="http://proteccionconsular.sre.gob.mx/images/Protocolonna2.pdf" target="_blank"><img src="img/protocoloLink.png" alt=""> </a></p>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                   <strong><i class="fa fa-external-link"></i> Protocolo para la Atención Consular de Niñas, Niños y Adolescentes Migrantes No Acompañados</strong>
+                  <br> Este Protocolo busca fortalecer los mecanismos de actuación del personal consular de México en el exterior para asegurar la protección integral de derechos de niñas, niños y adolescentes migrantes no acompañados. El Protocolo instruye al personal consular sobre qué hacer, cómo y por qué; además el documento es acompañado por una caja de herramientas que permite sustituir la entrevista tradicional por un diálogo interactivo.
+               </p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-3">
+                     <p>
+                        <a href="http://www.unicef.org/mexico/spanish/17054_28977.htm" target="_blank"><img src="img/publi-11.jpg" alt=""> </a>
+                     </p>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                   <strong><i class="fa fa-external-link"></i> Ley General de los Derechos de Niñas, Niños y
 
                      Adolescentes</strong>
                   <br> El 4 de diciembre de 2014, el Gobierno de México expidió la Ley General de los Derechos de Niñas, Niños y Adolescentes, una ley que establece el marco de protección integral para la infancia y la vinculación entre instituciones del país.
                   <br> </p>
-               <p>
-                  <a href="http://proteccionconsular.sre.gob.mx/images/Protocolonna2.pdf" target="_blank"><img src="img/protocoloLink.png" alt=""> </a> <strong><i class="fa fa-external-link"></i> Protocolo para la Atención Consular de Niñas, Niños y Adolescentes Migrantes No Acompañados</strong>
-                  <br> Este Protocolo busca fortalecer los mecanismos de actuación del personal consular de México en el exterior para asegurar la protección integral de derechos de niñas, niños y adolescentes migrantes no acompañados. El Protocolo instruye al personal consular sobre qué hacer, cómo y por qué; además el documento es acompañado por una caja de herramientas que permite sustituir la entrevista tradicional por un diálogo interactivo.
-               </p>
+                  </div>
+               </div>
+               
             </div>
             <div class="midLeft">
-               <p>
-                  <a href="http://www.unicef.org/mexico/spanish/Unicef_chihuahua_web(1).pdf" target="_blank"><img src="img/publi-06.jpg" alt=""> </a> <strong><i class="fa fa-external-link"></i> Los derechos de la niñez y la adolescencia en
+               <div class="row">
+                  <div class="col-md-3">
+                     <p><a href="http://www.unicef.org/mexico/spanish/Unicef_chihuahua_web(1).pdf" target="_blank"><img src="img/publi-06.jpg" alt=""> </a></p>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                   <strong><i class="fa fa-external-link"></i> Los derechos de la niñez y la adolescencia en
 
                      Chihuahua</strong>
                   <br> Este informe realiza un análisis de la situación de la infancia en el estado de Chihuahua, con la finalidad de valorar su situación en relación a sus derechos y cada etapa de su vida.
                   <br> </p>
-               <p>
-                  <a href="http://www.unicef.org/mexico/spanish/MX_UNICEF_SITAN_Jalisco.pdf" target="_blank"><img src="img/publi-12.jpg" alt=""> </a> <strong><i class="fa fa-external-link"></i> Los derechos de la niñez y la adolescencia en Jalisco</strong>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-3">
+                     <p><a href="http://www.unicef.org/mexico/spanish/MX_UNICEF_SITAN_Jalisco.pdf" target="_blank"><img src="img/publi-12.jpg" alt=""> </a></p>
+                  </div>
+                  <div class="col-md-9">
+                      <p>
+                   <strong><i class="fa fa-external-link"></i> Los derechos de la niñez y la adolescencia en Jalisco</strong>
                   <br> Jalisco es la tercera entidad federativa con más niños, niñas y adolescentes en su población: casi 35%. Este informe presenta la situación de los derechos de la infancia en Jalisco, un estado que muestra un mejor desempeño en comparación con los indicadores promedio del país, pero aún tiene áreas por mejorar.
                   <br> </p>
-               <p>
-                  <a href="http://www.unicef.org/mexico/spanish/17054_29586.htm" target="_blank"><img src="img/publi-07.jpg" alt=""> </a> <strong><i class="fa fa-external-link"></i> Suplemento Lactancia Materna El Universal</strong>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-3">
+                     <p><a href="http://www.unicef.org/mexico/spanish/17054_29586.htm" target="_blank"><img src="img/publi-07.jpg" alt=""> </a></p>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                   <strong><i class="fa fa-external-link"></i> Suplemento Lactancia Materna El Universal</strong>
                   <br> La lactancia materna es el alimento perfecto para todos los niños y niñas durante sus primeros seis meses de vida, ya que les beneficia enormemente en su desarrollo y en su salud. Este suplemento presenta artículos sobre la importancia de la lactancia y su promoción en todos los ámbitos de la sociedad.
                   <br> </p>
-               <p>
-                  <a href="http://www.unicef.org/mexico/spanish/InfografiaLactancia.pdf" target="_blank"><img src="img/publi-08.jpg" alt=""> </a> <strong><i class="fa fa-external-link"></i> Infografía: Cómo amamantar a tu bebé</strong>
+                  </div>
+               </div>
+              <div class="row">
+                 <div class="col-md-3">
+                    <p><a href="http://www.unicef.org/mexico/spanish/InfografiaLactancia.pdf" target="_blank"><img src="img/publi-08.jpg" alt=""> </a></p>
+                 </div>
+                 <div class="col-md-9">
+                    <p>
+                   <strong><i class="fa fa-external-link"></i> Infografía: Cómo amamantar a tu bebé</strong>
                   <br> Esta infografía proporciona consejos para tener una correcta técnica al amamantar y orienta a las madres sobre cómo saber si su bebé se está alimentando bien.
                   <br> </p>
-               <p>
-                  <a href="http://www.unicef.org/mexico/spanish/Folleto_Lactancia_FINAL.pdf" target="_blank"><img src="img/publi-09.jpg" alt=""> </a> <strong><i class="fa fa-external-link"></i> Di #SíaLaLactancia materna</strong>
+                 </div>
+              </div>
+               <div class="row">
+                  <div class="col-md-3">
+                     <p><a href="http://www.unicef.org/mexico/spanish/Folleto_Lactancia_FINAL.pdf" target="_blank"><img src="img/publi-09.jpg" alt=""> </a></p>
+                  </div>
+                  <div class="col-md-9">
+                     <p><strong><i class="fa fa-external-link"></i> Di #SíaLaLactancia materna</strong>
                   <br> Todo lo que necesita un bebé para crecer y desarrollarse sanamente está en la leche materna. La leche es el alimento perfecto durante los primeros meses de su vida y le brinda la mayor protección. Éste es un folleto informativo sobre los beneficios de la lactancia materna.
                   <br> </p>
-               <p>
-                  <a href="http://www.unicef.org/mexico/spanish/CRC_C_MEX_CO_4-5.pdf" target="_blank"><img src="img/publi-10.jpg" alt=""> </a> <strong><i class="fa fa-external-link"></i> Observaciones del Comité de los Derechos
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-3">
+                     <p><a href="http://www.unicef.org/mexico/spanish/CRC_C_MEX_CO_4-5.pdf" target="_blank"><img src="img/publi-10.jpg" alt=""> </a></p>
+                  </div>
+                  <div class="col-md-9">
+                     <p>
+                   <strong><i class="fa fa-external-link"></i> Observaciones del Comité de los Derechos
 
                      del Niño de las Naciones Unidas a los informes
 
                      periódicos 4° y 5° consolidados de México</strong>
-                  <br> El 19 y 20 de mayo de 2015, México presentó ante el Comité́ de los Derechos del Niño sus informes periódicos cuarto y quinto consolidados acerca de la situación de la niñez en el país y el cumplimiento de la Convención sobre los Derechos del Niño.
-                  <br>En esta publicación se presenta la traducción no oficial al español y la versión original (en inglés) de las Observaciones Finales del Comité a los informes periódicos de México.
-                  <br> </p>
+                  <br> El 19 y 20 de mayo de 2015, México presentó ante el Comité́ de los Derechos del Niño sus informes periódicos cuarto y quinto consolidados acerca de la situación de la niñez en el país y el cumplimiento de la Convención sobre los Derechos del Niño. En esta publicación se presenta la traducción no oficial al español y la versión original (en inglés) de las Observaciones Finales del Comité a los informes periódicos de México.
+                  </p>
+                  </div>
+               </div>
+               
+               
                
             </div>
          </div>
       </div>
+   </div>
    </div>
    <script src="js/jquery.min.js"></script>
    <script src="http://cdn.rawgit.com/noelboss/featherlight/1.4.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
@@ -2079,13 +2309,13 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
          // $('.midLeft').css('opacity', 0);
          // $('.midRight').css('opacity', 0);
          $('#fullpage').fullpage({
-            sectionsColor: ['#4ac5f2', '#4ac5f2', '', '', '', '', '', '', '', '', '', '', '', ''],
+            sectionsColor: ['#4ac5f2', '#4ac5f2', '', '', '', '', '', '', '', '', '', ''],
             scrollingSpeed: 1200,
             autoScrolling: false,
             navigation: false,
             scrollOverflow: false,
             slidesNavigation: true,
-            anchors: ['inicio', 'datos', 'nuestroTrabajo', 'situacion', 'losMasVulnerables', 'mejorPresenteyFuturo', 'unBuenComienzo', 'acuerdos', 'educacion', 'adolescentes', 'emergencias', 'innovacion', 'acciones', 'alianzas', 'publicaciones'],
+            anchors: ['inicio', 'situacion', 'nuestroTrabajo', 'mejorPresenteyFuturo', 'unBuenComienzo', 'educacion', 'adolescentes', 'emergencias', 'innovacion', 'acciones', 'alianza', 'publicaciones'],
             afterLoad: function(anchorLink, index) {
                //using anchorLink
                if (index == 1) {
@@ -2128,5 +2358,4 @@ Los ODS son la primera agenda internacional de desarrollo para los próximos 15 
    <script src="js/main.js"></script>
    <script src="js/bootstrap.min.js"></script>
 </body>
-
 </html>

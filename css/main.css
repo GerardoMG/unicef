@@ -647,6 +647,14 @@ section h2 strong{
 	display: none;
 }
 
+.featherlligth{
+	display: none;
+}
+
+.featherlligth.featherlight-inner{
+	display: block;
+}
+
 .featherlight .featherlight-content #infografia,
 .featherlight .featherlight-content #infografia2,
 .featherlight .featherlight-content #infografia3,
@@ -1031,7 +1039,6 @@ color: #ec008c;
 .midLeft .subDatos p, .midRight .subDatos p{
 	margin: 10px auto 20px;
 	padding: 10px 5px;
-	border-bottom: 1px solid #00aeef; 
 	color: #707070;
 	font-size: 14px;
 }
@@ -1290,6 +1297,13 @@ p.azul{
 		font-size: 10px;
 		line-height: 10px;
 	}
+
+	img[src="img/info1.jpg"],
+	img[src="img/info2.jpg"]{
+		width: 800px !important;
+		height: auto !important;
+	}
+
 
 	.links a{
 		border-right: 1px solid #1a9ad7;

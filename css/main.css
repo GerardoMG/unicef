@@ -643,7 +643,7 @@ section h2 strong{
     padding-right: 50px;
 }
 
-#infografia, #infografia2, #infografia3, #definicion1, #definicion2, #intCartilla{
+#infografia, #infografia2, #infografia3, #definicion1, #definicion2, #intCartilla, #informe{
 	display: none;
 }
 
@@ -660,7 +660,8 @@ section h2 strong{
 .featherlight .featherlight-content #infografia3,
 .featherlight .featherlight-content #definicion1,
 .featherlight .featherlight-content #definicion2,
-.featherlight .featherlight-content #intCartilla{
+.featherlight .featherlight-content #intCartilla,
+.featherlight .featherlight-content #informe{
 	display: block;
 }
 
@@ -1179,7 +1180,15 @@ p.azul{
 		margin: auto;
 		display: block;
 		margin-top: 20px;
-		width: 160px;
+		width: 200px;
+	}
+	.iniciaRecorrido{
+		text-align: center;
+	}
+
+	.iniciaRecorrido a,
+	.iniciaRecorrido a:hover{
+		color: #FFF;
 	}
 
 	.inicia:hover{
@@ -1301,6 +1310,12 @@ p.azul{
 	img[src="img/info1.jpg"],
 	img[src="img/info2.jpg"]{
 		width: 800px !important;
+		height: auto !important;
+	}
+
+
+	img[src="img/infografia0.jpg"]{
+		width: 1024px !important;
 		height: auto !important;
 	}
 

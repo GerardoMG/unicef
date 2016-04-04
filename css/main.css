@@ -19,6 +19,7 @@
     width: 100%;
     height: 100%;
     z-index: 99999998;
+    background-color: #fff;
 }
 #loader {
     display: block;
@@ -28,70 +29,10 @@
     width: 150px;
     height: 150px;
     margin: -75px 0 0 -75px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #00aeef;
-
-    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
-
+    
     z-index: 99999999;
 }
 
-    #loader:before {
-        content: "";
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        right: 5px;
-        bottom: 5px;
-        border-radius: 50%;
-        border: 3px solid transparent;
-        border-top-color: #ec008c;
-
-        -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-        animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
-    }
-
-    #loader:after {
-        content: "";
-        position: absolute;
-        top: 15px;
-        left: 15px;
-        right: 15px;
-        bottom: 15px;
-        border-radius: 50%;
-        border: 3px solid transparent;
-        border-top-color: #fdb614;
-
-        -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-          animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
-    }
-
-    @-webkit-keyframes spin {
-        0%   { 
-            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-            -ms-transform: rotate(0deg);  /* IE 9 */
-            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
-        }
-        100% {
-            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-            -ms-transform: rotate(360deg);  /* IE 9 */
-            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
-        }
-    }
-    @keyframes spin {
-        0%   { 
-            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-            -ms-transform: rotate(0deg);  /* IE 9 */
-            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
-        }
-        100% {
-            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-            -ms-transform: rotate(360deg);  /* IE 9 */
-            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
-        }
-    }
 
     #loader-wrapper .loader-section {
         position: fixed;
@@ -415,6 +356,10 @@ body.nuestroTrabajo #section0{
 		border-right: none;
 	}
 
+	.navbar-nav.nav li.last.dona{
+		background-color: #dd1f26;
+	}
+
 	.navbar-nav.nav li:hover{
 		background-color: #4cc7f2;
 	}
@@ -526,6 +471,10 @@ body.nuestroTrabajo #section0{
 		margin-left: 70px;
 	}
 
+	.nuestroTrabajo #section5 .banner.migracion .intro h1{
+		margin-left: 90px;
+	}
+
 	.nuestroTrabajo h2.sub{
 		color: #00aeef;
 		text-align: left;
@@ -549,6 +498,14 @@ body.nuestroTrabajo #section0{
 
 .datosSituacion{
 	background-color: rgb(234, 246, 254);
+}
+
+#situacionNinios{
+	background-color: rgb(74, 197, 242);
+}
+
+#situacionNinios .container{
+	width: 100%;
 }
 
 .datosSituacion h3 span{
@@ -682,6 +639,7 @@ section h2 strong{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 426px;
+	position: relative;
 }
 
 #section4 .banner{
@@ -744,7 +702,9 @@ section h2 strong{
 	}
 
 
-#section6 .primary .intro h1,
+#section6 .primary .intro h1{
+	margin-left: 30px;
+}
 #section9 .primary .intro h1{
 	margin-left: 115px;
 }
@@ -772,6 +732,7 @@ section h2 strong{
 #section10 .banner.ayudaUnicef{
 	background-image: url(../img/unicefMexico.jpg);
 	position: relative;
+	background-size: cover;
 }
 
 #section10 .banner.crisis{
@@ -1579,6 +1540,18 @@ table.table thead{
 	color: #ec008c;
 }
 
+table.table{
+	margin-bottom: 0px !important;
+}
+
+.table > thead > tr > th{
+	border-bottom: 0 !important;
+}
+
+.table > tbody > tr > td{
+	border-top: 0 !important;
+}
+
 .table td strong{
 	color: #00aeef;
 }
@@ -1589,15 +1562,43 @@ table.table thead{
 	display: block;
 }
 
+a.donar{
+	background-image: url(../img/DonaAhora.png);
+	background-position: 0 0;
+	height: 39px;
+	width: 200px;
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	bottom: 10px;
+}
+
+a.donar:hover{
+	background-position: 0 -39px;
+}
+
 #slides {
   position: relative;
 }
 #slides .slides-container {
   display: none;
 }
-#slides .slides-container img{
+
+#slides .slides-container img[src="img/slide01.jpg"]{
+  bottom: 0px !important;
+}
+#slides .slides-container img[src="img/slide02.jpg"]{
   top: 0px !important;
 }
+#slides .slides-container img[src="img/slide01a.jpg"]{
+  top: 0px !important;
+}
+#slides .slides-container img[src="img/slide02a.jpg"]{
+  top: 0px !important;
+}
+
+
 #slides .scrollable {
   *zoom: 1;
   position: relative;

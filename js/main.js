@@ -14,7 +14,7 @@ $(document).ready(function() {
 	
 	setTimeout(function(){
 		$('body').addClass('loaded');
-	}, 3000);
+	}, 1500);
 	
 });
 
@@ -23,3 +23,12 @@ $('a.fl').featherlight({
 });
 
 $.featherlight({iframeMaxWidth: '80%', iframeWidth: 500, iframeHeight: 300});
+
+
+$( "#leerMasUEA" ).on( "click", function() {
+  $( '#alturaUEA' ).css({
+    "height": "inherit",
+    "overflow": "inherit"
+  });
+  $(this).hide();
+});

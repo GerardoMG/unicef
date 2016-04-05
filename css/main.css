@@ -343,7 +343,7 @@ body.nuestroTrabajo #section0{
 	.navbar-nav.nav li a{
 		margin-top: 12px;
 		margin-bottom: 12px;
-		padding: 3px 20px;
+		padding: 3px 15px;
 		border-right: 1px solid #FFF;
 	}	
 
@@ -356,8 +356,25 @@ body.nuestroTrabajo #section0{
 		border-right: none;
 	}
 
-	.navbar-nav.nav li.last.dona{
+	.navbar-nav.nav li.last.dona a{
 		background-color: #dd1f26;
+	    height: 30px;
+	    line-height: 30px;
+	    margin-top: 9px;
+	}
+
+	.dona span.heart{
+		    display: inline-block;
+    width: 18px;
+    height: 15px;
+    vertical-align: text-top;
+    background: transparent url(../img/heart.svg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-transform: scale(.85);
+    -ms-transform: scale(.85);
+    -o-transform: scale(.85);
+    transform: scale(.85);
 	}
 
 	.navbar-nav.nav li:hover{
@@ -383,6 +400,19 @@ body.nuestroTrabajo #section0{
 		text-decoration: none;
 		color: #00afec;
 		background-color: #FFF;
+	}
+
+	.btn-group-justified > .btn-group .btn{
+		background-color: #4cc7f2;
+	    color: #FFF;
+	    line-height: 45px;
+	    height: 55px;
+	}
+
+
+	.btn-group-justified > .btn-group .btn:hover{
+		background-color: #4cc7f2;
+		color: #ec008c;
 	}
 
 	.redesSociales{
@@ -538,6 +568,10 @@ section h2 strong{
 	font-family: 'UniversLTStd-Bold';
 }
 
+#section, #section .fp-tableCell, #slides{
+	height: 620px !important;
+}
+
 #section0 .banner{
 	position: relative;
 }
@@ -620,6 +654,10 @@ section h2 strong{
 .featherlight .featherlight-content #intCartilla,
 .featherlight .featherlight-content #informe{
 	display: block;
+}
+
+#informe p{
+	margin: 0 20px 10px 20px;
 }
 
 #section3 .fp-tableCell{
@@ -712,6 +750,12 @@ section h2 strong{
 
 #section6 .banner{
 	background-image: url(../img/comienzo.jpg);
+}
+
+.sublevel{
+	clear: both;
+float: left;
+width: 100%
 }
 
 .sublevel .banner.compromisos{
@@ -1566,8 +1610,8 @@ table.table{
 a.donar{
 	background-image: url(../img/DonaAhora.png);
 	background-position: 0 0;
-	height: 39px;
-	width: 200px;
+	height: 31px;
+	width: 160px;
 	margin: 0 auto;
 	position: absolute;
 	left: 50%;
@@ -1576,7 +1620,7 @@ a.donar{
 }
 
 a.donar:hover{
-	background-position: 0 -39px;
+	background-position: 0 -31px;
 }
 
 #slides {
@@ -1716,6 +1760,32 @@ a.donar:hover{
 
 #alturaUEA{
 	height: 1350px;
+	overflow: hidden;
+	position: relative;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+#alturaPAN{
+	height: 1200px;
+	overflow: hidden;
+	position: relative;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+#alturaUBC{
+	height: 1300px;
+	overflow: hidden;
+	position: relative;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+#alturaLAC{
+	height: 1200px;
 	overflow: hidden;
 	position: relative;
 	-webkit-transition: all .5s;

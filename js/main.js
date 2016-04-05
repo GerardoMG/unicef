@@ -32,3 +32,47 @@ $( "#leerMasUEA" ).on( "click", function() {
   });
   $(this).hide();
 });
+$( "#leerMasPAN" ).on( "click", function() {
+  $( '#alturaPAN' ).css({
+    "height": "inherit",
+    "overflow": "inherit"
+  });
+  $(this).hide();
+});
+$( "#leerMasUBC" ).on( "click", function() {
+  $( '#alturaUBC' ).css({
+    "height": "inherit",
+    "overflow": "inherit"
+  });
+  $(this).hide();
+});
+$( "#leerMasLAC" ).on( "click", function() {
+  $( '#alturaLAC' ).css({
+    "height": "inherit",
+    "overflow": "inherit"
+  });
+  $(this).hide();
+});
+
+$( ".navbar-nav.nav li a" ).on( "click", function() {
+  $( '#alturaUEA' ).css({
+    "height": "1350px",
+    "overflow": "hidden"
+  });
+  $( '#alturaPAN' ).css({
+    "height": "1200px",
+    "overflow": "hidden"
+  });
+  $( '#alturaUBC' ).css({
+    "height": "1300px",
+    "overflow": "hidden"
+  });
+  $( '#alturaLAC' ).css({
+    "height": "1200px",
+    "overflow": "hidden"
+  });
+  $('#leerMasUEA').show();
+  $('#leerMasPAN').show();
+  $('#leerMasUBC').show();
+  $('#leerMasLAC').show();
+});
